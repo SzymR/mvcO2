@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace Repozytorium.Repo
 {
@@ -101,6 +102,38 @@ namespace Repozytorium.Repo
         public IQueryable<Atrybut> PobierzAtrybutyZKategorii(int id)
         {
 
+            var kat1 = new AtrybutWartosc()
+            {
+                IdAtrybut = 1,
+                Wartosc = "S"
+            };
+
+            var kat2 = new AtrybutWartosc()
+            {
+                IdAtrybut = 1,
+                Wartosc = "M"
+            };
+
+            var kat3 = new AtrybutWartosc()
+            {
+                IdAtrybut = 1,
+                Wartosc = "XL"
+            };
+
+
+            _db.AtrybutWartosc.Add(kat1);
+            _db.AtrybutWartosc.Add(kat2);
+            _db.AtrybutWartosc.Add(kat3);
+
+
+            _db.Kategoria_Atrybut.Add(new Kategoria_Atrybut()
+              {
+                  IdKategoria = 5,
+                  IdAtrybut = 1
+              });
+
+            _db.SaveChanges();
+
             var test1 = (from o in _db.Kategoria_Atrybut
                          select o).ToList();
 
@@ -130,5 +163,27 @@ namespace Repozytorium.Repo
 
 
 
+
+
+        public void dodajAtrybutyZWartosciami(List<Models.View.AtrybutZWartosciami> model)
+        {
+            foreach (var item in model)
+            {
+
+
+            }
+        }
+
+
+        public IEnumerable<System.Web.Mvc.SelectListItem> PobierzWartosciAtrybutowZAtrybutuJakoSelect(int id)
+        {
+            var atrW = from o in _db.Atrybut
+                       join k in _db.AtrybutWartosc on o.Id equals k.IdAtrybut
+                       where o.Id == id
+                       select k;
+
+            var list = atrW.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Wartosc });
+            return list;
+        }
     }
 }

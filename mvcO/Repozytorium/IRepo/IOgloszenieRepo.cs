@@ -65,5 +65,9 @@ namespace Repozytorium.IRepo
         /// </summary>
         /// <param name="ogloszenie"></param>
         void Aktualizuj(Ogloszenie ogloszenie);
+
+        void dodajAtrybutyZWartosciami(List<Models.View.AtrybutZWartosciami> model);
+
+        IEnumerable<System.Web.Mvc.SelectListItem> PobierzWartosciAtrybutowZAtrybutuJakoSelect(int p);
     }
 }
