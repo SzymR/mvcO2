@@ -1,0 +1,474 @@
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\obj\Debug\OGL.csprojResolveAssemblyReference.cache
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\OGL.dll.config
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\OGL.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\OGL.pdb
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Antlr3.Runtime.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\EntityFramework.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\EntityFramework.SqlServer.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Newtonsoft.Json.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Owin.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Net.Http.Formatting.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Helpers.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Http.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Http.WebHost.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Mvc.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Optimization.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Razor.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.WebPages.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.WebPages.Razor.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\WebGrease.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Antlr3.Runtime.pdb
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\EntityFramework.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\EntityFramework.SqlServer.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Newtonsoft.Json.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Net.Http.Formatting.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Helpers.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Http.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Http.WebHost.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Mvc.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Razor.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.WebPages.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.WebPages.Razor.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Optimization.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\obj\Debug\OGL.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\obj\Debug\OGL.pdb
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Repozytorium.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Repozytorium.pdb
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.Unity.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\WebActivatorEx.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.Unity.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\PagedList.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\PagedList.Mvc.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\PagedList.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL\bin\PagedList.Mvc.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\OGL.dll.config
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\OGL.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\OGL.pdb
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Antlr3.Runtime.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\EntityFramework.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\EntityFramework.SqlServer.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.AspNet.Identity.Core.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.Cookies.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.Facebook.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.Google.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.OAuth.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.Twitter.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.ServiceLocation.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.Unity.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.Unity.Mvc.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Web.Infrastructure.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Newtonsoft.Json.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Owin.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\PagedList.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\PagedList.Mvc.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Repozytorium.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Net.Http.Formatting.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Helpers.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Http.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Http.WebHost.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Mvc.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Optimization.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Razor.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.WebPages.Deployment.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.WebPages.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.WebPages.Razor.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\WebActivatorEx.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\WebGrease.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Repozytorium.pdb
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Antlr3.Runtime.pdb
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\EntityFramework.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\EntityFramework.SqlServer.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.AspNet.Identity.Core.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.Cookies.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.Facebook.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.Google.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.OAuth.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Owin.Security.Twitter.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.ServiceLocation.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.Unity.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.Unity.Mvc.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\Newtonsoft.Json.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\PagedList.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\PagedList.Mvc.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Net.Http.Formatting.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Helpers.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Http.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Http.WebHost.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Mvc.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Razor.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.WebPages.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.WebPages.Deployment.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.WebPages.Razor.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\bin\System.Web.Optimization.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\obj\Debug\OGL.csprojResolveAssemblyReference.cache
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\obj\Debug\OGL.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL\obj\Debug\OGL.pdb
+C:\Users\szymo\Desktop\OGL\OGL\bin\OGL.dll.config
+C:\Users\szymo\Desktop\OGL\OGL\bin\OGL.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\OGL.pdb
+C:\Users\szymo\Desktop\OGL\OGL\bin\Antlr3.Runtime.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\EntityFramework.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\EntityFramework.SqlServer.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.Security.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Practices.Unity.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Newtonsoft.Json.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Owin.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\PagedList.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\PagedList.Mvc.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Repozytorium.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Net.Http.Formatting.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.Helpers.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.Http.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.Http.WebHost.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.Mvc.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.Optimization.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.Razor.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.WebPages.Deployment.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.WebPages.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.WebPages.Razor.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\WebActivatorEx.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\WebGrease.dll
+C:\Users\szymo\Desktop\OGL\OGL\bin\Repozytorium.pdb
+C:\Users\szymo\Desktop\OGL\OGL\bin\Antlr3.Runtime.pdb
+C:\Users\szymo\Desktop\OGL\OGL\bin\EntityFramework.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\EntityFramework.SqlServer.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.Security.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Practices.Unity.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\Newtonsoft.Json.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\PagedList.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\PagedList.Mvc.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Net.Http.Formatting.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.Helpers.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.Http.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.Http.WebHost.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.Mvc.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.Razor.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.WebPages.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.WebPages.Deployment.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.WebPages.Razor.xml
+C:\Users\szymo\Desktop\OGL\OGL\bin\System.Web.Optimization.xml
+C:\Users\szymo\Desktop\OGL\OGL\obj\Debug\OGL.csprojResolveAssemblyReference.cache
+C:\Users\szymo\Desktop\OGL\OGL\obj\Debug\OGL.dll
+C:\Users\szymo\Desktop\OGL\OGL\obj\Debug\OGL.pdb
+C:\se\OGL\OGL\bin\OGL.dll.config
+C:\se\OGL\OGL\bin\OGL.dll
+C:\se\OGL\OGL\bin\OGL.pdb
+C:\se\OGL\OGL\bin\Antlr3.Runtime.dll
+C:\se\OGL\OGL\bin\EntityFramework.dll
+C:\se\OGL\OGL\bin\EntityFramework.SqlServer.dll
+C:\se\OGL\OGL\bin\Microsoft.AspNet.Identity.Core.dll
+C:\se\OGL\OGL\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\se\OGL\OGL\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\se\OGL\OGL\bin\Microsoft.Owin.dll
+C:\se\OGL\OGL\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\se\OGL\OGL\bin\Microsoft.Owin.Security.Cookies.dll
+C:\se\OGL\OGL\bin\Microsoft.Owin.Security.dll
+C:\se\OGL\OGL\bin\Microsoft.Owin.Security.Facebook.dll
+C:\se\OGL\OGL\bin\Microsoft.Owin.Security.Google.dll
+C:\se\OGL\OGL\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\se\OGL\OGL\bin\Microsoft.Owin.Security.OAuth.dll
+C:\se\OGL\OGL\bin\Microsoft.Owin.Security.Twitter.dll
+C:\se\OGL\OGL\bin\Microsoft.Practices.ServiceLocation.dll
+C:\se\OGL\OGL\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\se\OGL\OGL\bin\Microsoft.Practices.Unity.dll
+C:\se\OGL\OGL\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\se\OGL\OGL\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\se\OGL\OGL\bin\Microsoft.Web.Infrastructure.dll
+C:\se\OGL\OGL\bin\Newtonsoft.Json.dll
+C:\se\OGL\OGL\bin\Owin.dll
+C:\se\OGL\OGL\bin\PagedList.dll
+C:\se\OGL\OGL\bin\PagedList.Mvc.dll
+C:\se\OGL\OGL\bin\Repozytorium.dll
+C:\se\OGL\OGL\bin\System.Net.Http.Formatting.dll
+C:\se\OGL\OGL\bin\System.Web.Helpers.dll
+C:\se\OGL\OGL\bin\System.Web.Http.dll
+C:\se\OGL\OGL\bin\System.Web.Http.WebHost.dll
+C:\se\OGL\OGL\bin\System.Web.Mvc.dll
+C:\se\OGL\OGL\bin\System.Web.Optimization.dll
+C:\se\OGL\OGL\bin\System.Web.Razor.dll
+C:\se\OGL\OGL\bin\System.Web.WebPages.Deployment.dll
+C:\se\OGL\OGL\bin\System.Web.WebPages.dll
+C:\se\OGL\OGL\bin\System.Web.WebPages.Razor.dll
+C:\se\OGL\OGL\bin\WebActivatorEx.dll
+C:\se\OGL\OGL\bin\WebGrease.dll
+C:\se\OGL\OGL\bin\Repozytorium.pdb
+C:\se\OGL\OGL\bin\Antlr3.Runtime.pdb
+C:\se\OGL\OGL\bin\EntityFramework.xml
+C:\se\OGL\OGL\bin\EntityFramework.SqlServer.xml
+C:\se\OGL\OGL\bin\Microsoft.AspNet.Identity.Core.xml
+C:\se\OGL\OGL\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\se\OGL\OGL\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\se\OGL\OGL\bin\Microsoft.Owin.xml
+C:\se\OGL\OGL\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\se\OGL\OGL\bin\Microsoft.Owin.Security.xml
+C:\se\OGL\OGL\bin\Microsoft.Owin.Security.Cookies.xml
+C:\se\OGL\OGL\bin\Microsoft.Owin.Security.Facebook.xml
+C:\se\OGL\OGL\bin\Microsoft.Owin.Security.Google.xml
+C:\se\OGL\OGL\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\se\OGL\OGL\bin\Microsoft.Owin.Security.OAuth.xml
+C:\se\OGL\OGL\bin\Microsoft.Owin.Security.Twitter.xml
+C:\se\OGL\OGL\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\se\OGL\OGL\bin\Microsoft.Practices.ServiceLocation.xml
+C:\se\OGL\OGL\bin\Microsoft.Practices.Unity.xml
+C:\se\OGL\OGL\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\se\OGL\OGL\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\se\OGL\OGL\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\se\OGL\OGL\bin\Newtonsoft.Json.xml
+C:\se\OGL\OGL\bin\PagedList.xml
+C:\se\OGL\OGL\bin\PagedList.Mvc.xml
+C:\se\OGL\OGL\bin\System.Net.Http.Formatting.xml
+C:\se\OGL\OGL\bin\System.Web.Helpers.xml
+C:\se\OGL\OGL\bin\System.Web.Http.xml
+C:\se\OGL\OGL\bin\System.Web.Http.WebHost.xml
+C:\se\OGL\OGL\bin\System.Web.Mvc.xml
+C:\se\OGL\OGL\bin\System.Web.Razor.xml
+C:\se\OGL\OGL\bin\System.Web.WebPages.xml
+C:\se\OGL\OGL\bin\System.Web.WebPages.Deployment.xml
+C:\se\OGL\OGL\bin\System.Web.WebPages.Razor.xml
+C:\se\OGL\OGL\bin\System.Web.Optimization.xml
+C:\se\OGL\OGL\obj\Debug\OGL.csprojResolveAssemblyReference.cache
+C:\se\OGL\OGL\obj\Debug\OGL.dll
+C:\se\OGL\OGL\obj\Debug\OGL.pdb
+C:\Users\szymo\Desktop\mvcO\OGL\bin\OGL.dll.config
+C:\Users\szymo\Desktop\mvcO\OGL\bin\OGL.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\OGL.pdb
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Antlr3.Runtime.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\EntityFramework.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\EntityFramework.SqlServer.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.Security.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Practices.Unity.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Newtonsoft.Json.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Owin.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\PagedList.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\PagedList.Mvc.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Repozytorium.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Net.Http.Formatting.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.Helpers.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.Http.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.Http.WebHost.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.Mvc.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.Optimization.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.Razor.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.WebPages.Deployment.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.WebPages.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.WebPages.Razor.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\WebActivatorEx.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\WebGrease.dll
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Repozytorium.pdb
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Antlr3.Runtime.pdb
+C:\Users\szymo\Desktop\mvcO\OGL\bin\EntityFramework.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\EntityFramework.SqlServer.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.Security.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Practices.Unity.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\Newtonsoft.Json.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\PagedList.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\PagedList.Mvc.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Net.Http.Formatting.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.Helpers.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.Http.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.Http.WebHost.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.Mvc.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.Razor.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.WebPages.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.WebPages.Deployment.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.WebPages.Razor.xml
+C:\Users\szymo\Desktop\mvcO\OGL\bin\System.Web.Optimization.xml
+C:\Users\szymo\Desktop\mvcO\OGL\obj\Debug\OGL.csprojResolveAssemblyReference.cache
+C:\Users\szymo\Desktop\mvcO\OGL\obj\Debug\OGL.dll
+C:\Users\szymo\Desktop\mvcO\OGL\obj\Debug\OGL.pdb
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\OGL.dll.config
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\OGL.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\OGL.pdb
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Antlr3.Runtime.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\EntityFramework.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\EntityFramework.SqlServer.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.Security.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Practices.Unity.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Practices.Unity.Mvc.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Newtonsoft.Json.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Owin.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\PagedList.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\PagedList.Mvc.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Repozytorium.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Net.Http.Formatting.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.Helpers.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.Http.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.Http.WebHost.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.Mvc.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.Optimization.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.Razor.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.WebPages.Deployment.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.WebPages.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.WebPages.Razor.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\WebActivatorEx.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\WebGrease.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Repozytorium.pdb
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Antlr3.Runtime.pdb
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\EntityFramework.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\EntityFramework.SqlServer.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.Security.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Practices.Unity.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Practices.Unity.Mvc.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\Newtonsoft.Json.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\PagedList.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\PagedList.Mvc.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Net.Http.Formatting.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.Helpers.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.Http.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.Http.WebHost.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.Mvc.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.Razor.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.WebPages.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.WebPages.Deployment.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.WebPages.Razor.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\bin\System.Web.Optimization.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\obj\Debug\OGL.csprojResolveAssemblyReference.cache
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\obj\Debug\OGL.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\OGL\obj\Debug\OGL.pdb

@@ -1,0 +1,23 @@
+﻿@model List<Repozytorium.Models.View.AtrybutZWartosciami>
+@{
+    ViewBag.Title = "WypelnijAtrybuty";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Wypelnij Atrybuty</h2>
+
+<div>
+
+    @foreach (var item in Model)
+    {
+        <div>@item.atrybut.Nazwa</div>
+
+
+      foreach (var wartosc in item.atrybutWartosc)
+        {
+                <div>@wartosc.Wartosc</div>
+        }
+
+    }
+
+</div>

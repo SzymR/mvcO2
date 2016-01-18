@@ -1,0 +1,170 @@
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\obj\Debug\OGL.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\OGL.Tests.dll.config
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\OGL.Tests.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\OGL.Tests.pdb
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\OGL.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Repozytorium.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Owin.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\OGL.pdb
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Repozytorium.pdb
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\obj\Debug\OGL.Tests.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\OGL.Tests\obj\Debug\OGL.Tests.pdb
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\OGL.Tests.dll.config
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\OGL.Tests.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\OGL.Tests.pdb
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\OGL.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Helpers.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Mvc.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Razor.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Repozytorium.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Optimization.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Owin.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Http.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\WebActivatorEx.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\EntityFramework.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Security.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Practices.Unity.Mvc.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\PagedList.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\OGL.pdb
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Helpers.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Mvc.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Razor.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Repozytorium.pdb
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Optimization.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Http.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\EntityFramework.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Security.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Practices.Unity.Mvc.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\PagedList.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\obj\Debug\OGL.Tests.csprojResolveAssemblyReference.cache
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\obj\Debug\OGL.Tests.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\OGL.Tests\obj\Debug\OGL.Tests.pdb
+C:\se\OGL\OGL.Tests\bin\Debug\OGL.Tests.dll.config
+C:\se\OGL\OGL.Tests\bin\Debug\OGL.Tests.dll
+C:\se\OGL\OGL.Tests\bin\Debug\OGL.Tests.pdb
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\se\OGL\OGL.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\se\OGL\OGL.Tests\bin\Debug\OGL.dll
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.Helpers.dll
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.Mvc.dll
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.Razor.dll
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.dll
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\se\OGL\OGL.Tests\bin\Debug\Repozytorium.dll
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.Optimization.dll
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.dll
+C:\se\OGL\OGL.Tests\bin\Debug\Owin.dll
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.Http.dll
+C:\se\OGL\OGL.Tests\bin\Debug\WebActivatorEx.dll
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\se\OGL\OGL.Tests\bin\Debug\EntityFramework.dll
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.Practices.Unity.Mvc.dll
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\se\OGL\OGL.Tests\bin\Debug\PagedList.dll
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\se\OGL\OGL.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\se\OGL\OGL.Tests\bin\Debug\OGL.pdb
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.Helpers.xml
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.Mvc.xml
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.Razor.xml
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.xml
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\se\OGL\OGL.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\se\OGL\OGL.Tests\bin\Debug\Repozytorium.pdb
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.Optimization.xml
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.xml
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.Http.xml
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\se\OGL\OGL.Tests\bin\Debug\EntityFramework.xml
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.Practices.Unity.Mvc.xml
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\se\OGL\OGL.Tests\bin\Debug\PagedList.xml
+C:\se\OGL\OGL.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\se\OGL\OGL.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\se\OGL\OGL.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\se\OGL\OGL.Tests\obj\Debug\OGL.Tests.csprojResolveAssemblyReference.cache
+C:\se\OGL\OGL.Tests\obj\Debug\OGL.Tests.dll
+C:\se\OGL\OGL.Tests\obj\Debug\OGL.Tests.pdb

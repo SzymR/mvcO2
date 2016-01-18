@@ -1,0 +1,156 @@
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\Repozytorium.dll.config
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\Repozytorium.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\Repozytorium.pdb
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\EntityFramework.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\EntityFramework.SqlServer.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.Helpers.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.Mvc.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.Razor.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.WebPages.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.WebPages.Razor.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\EntityFramework.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\EntityFramework.SqlServer.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.Helpers.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.Mvc.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.Razor.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.WebPages.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.WebPages.Razor.xml
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\obj\Debug\Repozytorium.dll
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\obj\Debug\Repozytorium.pdb
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\obj\Debug\Repozytorium.Migrations.startowa.resources
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\obj\Debug\Repozytorium.csproj.GenerateResource.Cache
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\obj\Debug\Repozytorium.Migrations._1.resources
+C:\Users\Szymon\Documents\Visual Studio 2013\Projects\OGL\Repozytorium\obj\Debug\Repozytorium.csprojResolveAssemblyReference.cache
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\Repozytorium.dll.config
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\Repozytorium.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\Repozytorium.pdb
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\EntityFramework.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\EntityFramework.SqlServer.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\Microsoft.AspNet.Identity.Core.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\Microsoft.Web.Infrastructure.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.Helpers.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.Mvc.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.Razor.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.WebPages.Deployment.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.WebPages.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.WebPages.Razor.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\EntityFramework.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\EntityFramework.SqlServer.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\Microsoft.AspNet.Identity.Core.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.Helpers.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.Mvc.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.Razor.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.WebPages.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.WebPages.Deployment.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\bin\System.Web.WebPages.Razor.xml
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\obj\Debug\Repozytorium.Migrations.startowa.resources
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\obj\Debug\Repozytorium.Migrations._1.resources
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\obj\Debug\Repozytorium.csproj.GenerateResource.Cache
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\obj\Debug\Repozytorium.dll
+D:\DOC\Visual Studio 2013\Projects\OGL\Repozytorium\obj\Debug\Repozytorium.pdb
+C:\se\OGL\Repozytorium\obj\Debug\Repozytorium.csprojResolveAssemblyReference.cache
+C:\se\OGL\Repozytorium\obj\Debug\Repozytorium.Migrations.startowa.resources
+C:\se\OGL\Repozytorium\obj\Debug\Repozytorium.Migrations._1.resources
+C:\se\OGL\Repozytorium\obj\Debug\Repozytorium.csproj.GenerateResource.Cache
+C:\se\OGL\Repozytorium\obj\Debug\Repozytorium.dll
+C:\se\OGL\Repozytorium\bin\Repozytorium.dll.config
+C:\se\OGL\Repozytorium\bin\Repozytorium.dll
+C:\se\OGL\Repozytorium\bin\Repozytorium.pdb
+C:\se\OGL\Repozytorium\bin\EntityFramework.dll
+C:\se\OGL\Repozytorium\bin\EntityFramework.SqlServer.dll
+C:\se\OGL\Repozytorium\bin\Microsoft.AspNet.Identity.Core.dll
+C:\se\OGL\Repozytorium\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\se\OGL\Repozytorium\bin\Microsoft.Web.Infrastructure.dll
+C:\se\OGL\Repozytorium\bin\System.Web.Helpers.dll
+C:\se\OGL\Repozytorium\bin\System.Web.Mvc.dll
+C:\se\OGL\Repozytorium\bin\System.Web.Razor.dll
+C:\se\OGL\Repozytorium\bin\System.Web.WebPages.Deployment.dll
+C:\se\OGL\Repozytorium\bin\System.Web.WebPages.dll
+C:\se\OGL\Repozytorium\bin\System.Web.WebPages.Razor.dll
+C:\se\OGL\Repozytorium\bin\EntityFramework.xml
+C:\se\OGL\Repozytorium\bin\EntityFramework.SqlServer.xml
+C:\se\OGL\Repozytorium\bin\Microsoft.AspNet.Identity.Core.xml
+C:\se\OGL\Repozytorium\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\se\OGL\Repozytorium\bin\System.Web.Helpers.xml
+C:\se\OGL\Repozytorium\bin\System.Web.Mvc.xml
+C:\se\OGL\Repozytorium\bin\System.Web.Razor.xml
+C:\se\OGL\Repozytorium\bin\System.Web.WebPages.xml
+C:\se\OGL\Repozytorium\bin\System.Web.WebPages.Deployment.xml
+C:\se\OGL\Repozytorium\bin\System.Web.WebPages.Razor.xml
+C:\se\OGL\Repozytorium\obj\Debug\Repozytorium.pdb
+C:\se\OGL\Repozytorium\obj\Debug\Repozytorium.Migrations.dodanieAtrybutoq.resources
+C:\se\OGL\Repozytorium\obj\Debug\Repozytorium.Migrations.poprawa.resources
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\Repozytorium.dll.config
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\Repozytorium.dll
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\Repozytorium.pdb
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\EntityFramework.dll
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\EntityFramework.SqlServer.dll
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\System.Web.Helpers.dll
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\System.Web.Mvc.dll
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\System.Web.Razor.dll
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\System.Web.WebPages.Deployment.dll
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\System.Web.WebPages.dll
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\System.Web.WebPages.Razor.dll
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\EntityFramework.xml
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\EntityFramework.SqlServer.xml
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\System.Web.Helpers.xml
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\System.Web.Mvc.xml
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\System.Web.Razor.xml
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\System.Web.WebPages.xml
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\System.Web.WebPages.Deployment.xml
+C:\Users\szymo\Desktop\mvcO\Repozytorium\bin\System.Web.WebPages.Razor.xml
+C:\Users\szymo\Desktop\mvcO\Repozytorium\obj\Debug\Repozytorium.csprojResolveAssemblyReference.cache
+C:\Users\szymo\Desktop\mvcO\Repozytorium\obj\Debug\Repozytorium.Migrations.startowa.resources
+C:\Users\szymo\Desktop\mvcO\Repozytorium\obj\Debug\Repozytorium.Migrations._1.resources
+C:\Users\szymo\Desktop\mvcO\Repozytorium\obj\Debug\Repozytorium.Migrations.dodanieAtrybutoq.resources
+C:\Users\szymo\Desktop\mvcO\Repozytorium\obj\Debug\Repozytorium.Migrations.poprawa.resources
+C:\Users\szymo\Desktop\mvcO\Repozytorium\obj\Debug\Repozytorium.csproj.GenerateResource.Cache
+C:\Users\szymo\Desktop\mvcO\Repozytorium\obj\Debug\Repozytorium.dll
+C:\Users\szymo\Desktop\mvcO\Repozytorium\obj\Debug\Repozytorium.pdb
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\Repozytorium.dll.config
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\Repozytorium.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\Repozytorium.pdb
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\EntityFramework.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\EntityFramework.SqlServer.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\System.Web.Helpers.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\System.Web.Mvc.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\System.Web.Razor.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\System.Web.WebPages.Deployment.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\System.Web.WebPages.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\System.Web.WebPages.Razor.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\EntityFramework.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\EntityFramework.SqlServer.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\System.Web.Helpers.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\System.Web.Mvc.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\System.Web.Razor.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\System.Web.WebPages.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\System.Web.WebPages.Deployment.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\bin\System.Web.WebPages.Razor.xml
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\obj\Debug\Repozytorium.csprojResolveAssemblyReference.cache
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\obj\Debug\Repozytorium.Migrations.startowa.resources
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\obj\Debug\Repozytorium.Migrations._1.resources
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\obj\Debug\Repozytorium.Migrations.dodanieAtrybutoq.resources
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\obj\Debug\Repozytorium.Migrations.poprawa.resources
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\obj\Debug\Repozytorium.Migrations.zdjecie.resources
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\obj\Debug\Repozytorium.csproj.GenerateResource.Cache
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\obj\Debug\Repozytorium.dll
+C:\Users\szymo\Desktop\mvcO — kopiaZdj — kopia\Repozytorium\obj\Debug\Repozytorium.pdb

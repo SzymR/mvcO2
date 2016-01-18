@@ -1,0 +1,215 @@
+﻿@model Repozytorium.Models.Ogloszenie
+
+@{
+    ViewBag.Tytul = "Dodaj ogłoszenie";
+    ViewBag.Opis = "Dodaj ogłoszenie - opis do Google";
+    ViewBag.SlowaKluczowe = "Ogłoszenie, dodaj";
+}
+
+<h2>Dodaj nowe ogłoszenie</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Ogloszenie</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Tresc, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Tresc, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Tresc, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Tytul, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Tytul, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Tytul, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group" id="category">
+            <ol id="category-list"></ol>
+
+
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="button" id="AddAdvert" class="btn btn-success" value="Dodaj Ogłoszenie" />
+                <input type="submit" value="Dodaj" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+}
+
+
+
+<script>
+
+    function AddAdvertScope() {
+
+        var self = this;
+        var ChoosenItem = 0;
+
+
+        this.InitButtons = function () {
+            $('#AddAdvert').click(AddAdvert);
+        };
+
+
+
+        function AddAdvert() {
+
+            var _category = [];
+
+            $('#category').find('*').each(function () {
+                var item = $(this);
+                if (item.is("input:radio:checked")) {
+
+                    debugger
+                    _category.push(item.val());
+
+                }
+
+            });
+
+            var _advert =
+            {
+
+                Tresc: $('#Tresc').val(),
+                Tytul: $('#Tytul').val(),
+
+
+            };
+
+            if (_category.length == 0)
+            {
+                alert("Wybierz przynajmniej jedną kategorię");
+                return;
+            }
+
+            debugger
+
+
+            $.ajax({
+                type: "POST",
+                contentType: 'application/json',
+                url: "/Ogloszenie/DodajOgloszenie",
+                enctype:"multipart/form-data",
+                data: JSON.stringify({ advert :_advert,category:_category }),
+                success: function (result) {
+                    debugger
+
+                    var url="@Url.Action("WypelnijAtrybuty", "Ogloszenie")";
+
+                    window.location.href = url + "?category=" + _category;//this will call you action method and pass you parameter.
+
+                    if (result.url) {
+
+
+                        // if the server returned a JSON object containing an url
+                        // property we redirect the browser to that url
+
+
+                        //$.ajax({
+                        //    type: "POST",
+
+                        //    url: "/Advert/File",
+                        //    enctype: "multipart/form-data",
+                        //    data: files[0],
+                        //    success: function (result) {
+                        //        debugger
+                        //       // if (result.url) {
+                        //            // if the server returned a JSON object containing an url
+                        //            // property we redirect the browser to that url
+
+
+                        //           /// window.location.href = result.url;
+                        //        //}
+
+                        //    }
+
+                        //});
+
+
+
+                    }
+
+                }
+
+            });
+
+        };
+
+
+
+
+
+        function GetRowInTable(id, name, description) {
+
+            var string = '<tr id=' + id + '> <td> ' + id + '</td><td>' + name + ' </td> <td>' + description + ' </td> <td><input class=\'btn\' value=\'wybierz\' type=\'button\' onclick=\'ChooseItem(' + id + ') \'></input> <input class=\'btn\' value=\'usun\' type=\'button\' onclick=\'RemoveItem(' + id + ') \'></input> </td>  </tr>';
+            return string;
+        }
+
+        this.GetCategory = function () {
+
+            var urlAdres = "@Url.Action("PobierzKategoriePrzyDodawaniuOgloszenia", "Kategoria")";
+
+            $.ajax({
+                type: "GET",
+                url: urlAdres,
+                success: function (data) {
+                    $.each(data, function (key, value) {
+                        debugger
+                        if (value.ParentId == undefined || value.ParentId == null || value.ParentId == 0) {
+                            $("#category-list").append('<li class=' + value.Id + '><input type="radio" value=' + value.Id + '  name=' + value.Id + ' > </input>  <label>' + value.Nazwa + '</label> </li>');
+
+                        }
+                        else {
+                            var item = $("#category-list li[class=" + value.ParentId + "]");
+                            var child = item.find("li");
+                            if (child.length == 0) {
+                                item.append('<ol class=' + value.ParentId + '> </ol>');
+                            }
+
+                            $("#category-list ol[class=" + value.ParentId + "]").append('<li class=' + value.Id + '><input type="radio" value=' + value.Id + '  name=' + value.MainParent + ' > </input>  <label>' + value.Nazwa + '</label> </li>');
+                        }
+
+                    })
+                },
+                error: function (error) {
+                    alert("error");
+
+                }
+            });
+        }
+    }
+
+
+
+
+    $(document).ready(function () {
+
+        scope = new AddAdvertScope();
+        scope.InitButtons();
+        scope.GetCategory();
+
+
+    });
+</script>
+
+
+<div>
+    @Html.ActionLink("Wróć", "Index", null, new { @class = "btn btn-warning" })
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
