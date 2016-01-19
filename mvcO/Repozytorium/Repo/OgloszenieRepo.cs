@@ -169,9 +169,17 @@ namespace Repozytorium.Repo
         {
             foreach (var item in model)
             {
+                OgloszenieAtrybutWartosc temp = new OgloszenieAtrybutWartosc()
+                {
+                    IdAtrybut = item.atrybut.Id,
+                    IdAtrybutWartosc = item.Selected
 
+                };
 
+                _db.OgloszenieAtrybutWartosc.Add(temp);
             }
+
+            _db.SaveChanges();
         }
 
 
@@ -184,6 +192,16 @@ namespace Repozytorium.Repo
 
             var list = atrW.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Wartosc });
             return list;
+        }
+
+
+        public IQueryable<Ogloszenie> WyszukajOgloszenia(string szukaj)
+        {
+            var oglosz = from o in _db.Ogloszenia
+                       where o.Tresc.Contains(szukaj) || o.Tytul.Contains(szukaj) 
+                       select o;
+
+            return oglosz;
         }
     }
 }

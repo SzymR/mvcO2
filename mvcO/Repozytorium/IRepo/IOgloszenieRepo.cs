@@ -69,5 +69,7 @@ namespace Repozytorium.IRepo
         void dodajAtrybutyZWartosciami(List<Models.View.AtrybutZWartosciami> model);
 
         IEnumerable<System.Web.Mvc.SelectListItem> PobierzWartosciAtrybutowZAtrybutuJakoSelect(int p);
+
+        IQueryable<Ogloszenie> WyszukajOgloszenia(string szukaj);
     }
 }

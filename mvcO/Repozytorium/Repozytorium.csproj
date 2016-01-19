@@ -139,6 +139,10 @@
     <Compile Include="Migrations\201601191118147_dodanieTAbel.Designer.cs">
       <DependentUpon>201601191118147_dodanieTAbel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201601191352530_dodanieSlow.cs" />
+    <Compile Include="Migrations\201601191352530_dodanieSlow.Designer.cs">
+      <DependentUpon>201601191352530_dodanieSlow.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Atrybut.cs" />
     <Compile Include="Models\AtrybutWartosc.cs" />
     <Compile Include="Models\Kategoria.cs" />
@@ -152,6 +156,7 @@
     <Compile Include="Models\View\AtrybutZWartosciami.cs" />
     <Compile Include="Models\View\KategoriaZRodzicem.cs" />
     <Compile Include="Models\View\OgloszeniaZKategoriiViewModels.cs" />
+    <Compile Include="Models\View\Szukaj.cs" />
     <Compile Include="Models\Wiadomosc.cs" />
     <Compile Include="Models\ZakazaneSlowo.cs" />
     <Compile Include="Models\Zdjecie.cs" />
@@ -179,6 +184,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201601191118147_dodanieTAbel.resx">
       <DependentUpon>201601191118147_dodanieTAbel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601191352530_dodanieSlow.resx">
+      <DependentUpon>201601191352530_dodanieSlow.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

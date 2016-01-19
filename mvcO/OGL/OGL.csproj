@@ -301,9 +301,9 @@
     <Content Include="Views\Kategoria\PokazOgloszenia.cshtml" />
     <Content Include="Views\Ogloszenie\WypelnijAtrybuty.cshtml" />
     <Content Include="Views\Galeria\Lista.cshtml" />
-    <Content Include="Views\Admin\CreateWiadomosc.cshtml" />
     <Content Include="Views\Admin\GetWiadomosci.cshtml" />
     <Content Include="Views\Kategoria\Create.cshtml" />
+    <Content Include="Views\Admin\CreateWiadomosc.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

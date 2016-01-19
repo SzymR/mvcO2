@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Repozytorium.Models.Wiadomosc>
+
+@{
+    ViewBag.Title = "GetWiadomosci";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Aktualnosci </h2>
+<br/>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.tytul)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tresc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dataDodania)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.tytul)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tresc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dataDodania)
+        </td>
+  
+    </tr>
+}
+
+</table>

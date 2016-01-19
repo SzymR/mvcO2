@@ -254,3 +254,4 @@ C:\Users\W\Source\Repos\mvcO23\mvcO\Repozytorium\obj\Debug\Repozytorium.csproj.G
 C:\Users\W\Source\Repos\mvcO23\mvcO\Repozytorium\obj\Debug\Repozytorium.dll
 C:\Users\W\Source\Repos\mvcO23\mvcO\Repozytorium\obj\Debug\Repozytorium.pdb
 C:\Users\W\Source\Repos\mvcO23\mvcO\Repozytorium\obj\Debug\Repozytorium.Migrations.dodanieTAbel.resources
+C:\Users\W\Source\Repos\mvcO23\mvcO\Repozytorium\obj\Debug\Repozytorium.Migrations.dodanieSlow.resources

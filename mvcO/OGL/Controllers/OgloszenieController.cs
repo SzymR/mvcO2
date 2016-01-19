@@ -170,6 +170,17 @@ namespace OGL.Controllers
         }
 
 
+        [HttpPost]
+       public ActionResult Szukaj(string  szukaj )
+        {
+
+            var model  = _repo.WyszukajOgloszenia(szukaj);
+            TempData["Message"] = "Wynik wyszukiwania : ";
+            model = model.OrderByDescending(d => d.DataDodania).AsQueryable();
+            return View("MojeOgloszenia", model.ToPagedList<Ogloszenie>(1, 10));
+        }
+
+
         #region MetodyDodawaniaUsuwaniaITP
 
         #region Details
