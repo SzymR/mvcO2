@@ -33,7 +33,7 @@ namespace Repozytorium.Models
 
         public void SaveChanges()
         {
-            throw new NotImplementedException();
+            _db.SaveChanges();
         }
     }
 }

@@ -213,6 +213,7 @@
     <Compile Include="App_Start\UnityMvcActivator.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\GaleriaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KategoriaController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -298,18 +299,25 @@
     <Content Include="Views\Kategoria\Index.cshtml" />
     <Content Include="Views\Kategoria\PokazOgloszenia.cshtml" />
     <Content Include="Views\Ogloszenie\WypelnijAtrybuty.cshtml" />
+    <Content Include="Views\Galeria\Lista.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Repozytorium\Repozytorium.csproj">
       <Project>{c8e0f8ed-1e96-428f-be98-248074239375}</Project>
       <Name>Repozytorium</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Services\Services.csproj">
+      <Project>{a42ae6b7-a718-4184-8ca7-41a400b98cc9}</Project>
+      <Name>Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
