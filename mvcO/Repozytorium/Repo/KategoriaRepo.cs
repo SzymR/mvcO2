@@ -47,5 +47,60 @@ namespace Repozytorium.Repo
             _db.Kategorie.Add(temp);
             _db.SaveChanges();
         }
+
+
+        public List<Atrybut> PobierzAtrybutyzKategori(int p)
+        {
+            var list = (from o in _db.Kategoria_Atrybut
+                        join k in _db.Atrybut on o.IdAtrybut equals k.Id
+                        where o.IdKategoria==p
+                        select k).ToList();
+            return list;
+        }
+
+        public Kategoria PobierzKategorie(int p)
+        {
+
+            return _db.Kategorie.Where(x => x.Id == p).SingleOrDefault();
+        }
+
+
+        public void UsunAtrybutZKategorii(int p1, int p2)
+        {
+            var col = _db.Kategoria_Atrybut.Where(x => x.IdAtrybut == p1 && x.IdKategoria == p2);
+
+            foreach (var item in col)
+            {
+                _db.Kategoria_Atrybut.Remove(item);
+            }
+
+            _db.SaveChanges();
+        }
+
+
+        public void dodajAtrybutDoKategorii(Models.View.KategoriaZAtrybutami model)
+        {
+            _db.Kategoria_Atrybut.Add(new Kategoria_Atrybut()
+            {
+
+                 IdAtrybut=model.Selected,
+                 IdKategoria=model.kategoria.Id
+            });
+
+            _db.SaveChanges();
+       
+        }
+
+
+        public List<Atrybut> PobierzAtrybuty()
+        {
+            return _db.Atrybut.ToList();
+        }
+
+
+        public bool SprawdzCzyKategoriaPosiadaTakiAtrybut(Models.View.KategoriaZAtrybutami model)
+        {
+            return _db.Kategoria_Atrybut.Any(x=>x.IdAtrybut==model.Selected && x.IdKategoria==model.kategoria.Id);
+        }
     }
 }

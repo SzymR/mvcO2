@@ -308,6 +308,7 @@
     <Content Include="Views\Shared\_Layout Medium.cshtml" />
     <Content Include="Views\Admin\SlowaZakazane.cshtml" />
     <Content Include="Views\Admin\CreateSlowZakazane.cshtml" />
+    <Content Include="Views\Kategoria\DefiniujAtrybuty.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

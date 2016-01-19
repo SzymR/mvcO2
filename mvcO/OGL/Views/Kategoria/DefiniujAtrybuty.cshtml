@@ -1,0 +1,70 @@
+﻿
+@model Repozytorium.Models.View.KategoriaZAtrybutami
+@{
+    ViewBag.Title = "DefiniujAtrybuty";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@Html.ValidationMessage("error", new { @class = "text-danger" })
+<h2>Lista Atrybutow dla @Model.kategoria.Nazwa </h2>
+
+
+
+
+@Html.HiddenFor(x => x.kategoria.Nazwa)
+
+
+<table class="table">
+    <tr></tr>
+
+    @foreach (var item in Model.atrybuty)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Nazwa)
+            </td>
+
+
+            <td>
+                @Html.ActionLink("Usuń Atrybut ", "Usun", new { id = item.Id, idKat = Model.kategoria.Id }, new { @class = "btn" })
+            </td>
+
+        </tr>
+   
+
+  
+    }
+</table>
+
+
+@using (Html.BeginForm())
+{
+
+    <div class="form-group">
+         <h4> Dodaj Atrybut </h4>
+
+                   @Html.HiddenFor(x => x.kategoria.Id)
+
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => Model.Selected, Model.wszystkieAtrybuty, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Selected, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Dodaj " class="btn btn-default" />
+        </div>
+    </div>
+    
+}
+
+
+
+
+
+
+

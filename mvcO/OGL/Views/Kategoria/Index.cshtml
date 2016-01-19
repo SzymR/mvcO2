@@ -36,9 +36,7 @@
         <td>
             @Html.ActionLink(item.Nazwa, "PokazOgloszenia", new { id=item.Id})
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ParentId)
-        </td>
+     
         <td>
             @Html.DisplayFor(modelItem => item.MetaTytul)
         </td>
@@ -51,6 +49,11 @@
         <td>
             @Html.DisplayFor(modelItem => item.Tresc)
         </td>
+
+        <td>
+            @Html.ActionLink("Atrybuty", "DefiniujAtrybuty", new { id = item.Id }, new { @class = "btn" })
+        </td>
+
     </tr>
 }
 

@@ -13,5 +13,17 @@ namespace Repozytorium.IRepo
         string NazwaDlaKategorii(int id);
 
         void DodajKategorie(Models.View.KategoriaZRodzicem model);
+
+        List<Atrybut> PobierzAtrybutyzKategori(int p);
+
+        Kategoria PobierzKategorie(int p);
+
+        void UsunAtrybutZKategorii(int p1, int p2);
+
+        void dodajAtrybutDoKategorii(Models.View.KategoriaZAtrybutami model);
+
+        List<Atrybut> PobierzAtrybuty();
+
+        bool SprawdzCzyKategoriaPosiadaTakiAtrybut(Models.View.KategoriaZAtrybutami model);
     }
 }

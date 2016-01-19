@@ -61,5 +61,56 @@ namespace OGL.Controllers
             return Json(kateogorie, JsonRequestBehavior.AllowGet);
         }
 
+       [HttpGet]
+       public ActionResult DefiniujAtrybuty(int? id)
+       {
+           if (id.HasValue)
+           {
+
+
+               KategoriaZAtrybutami temp = new KategoriaZAtrybutami();
+               var list = _repo.PobierzAtrybuty();
+               temp.kategoria = _repo.PobierzKategorie(id.Value);
+               temp.atrybuty = _repo.PobierzAtrybutyzKategori(id.Value);
+               temp.wszystkieAtrybuty = list.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Nazwa });
+               return View(temp);
+           }
+           else
+               return null;
+
+       }
+
+       [HttpPost]
+       public ActionResult DefiniujAtrybuty(KategoriaZAtrybutami model )
+       {
+           if(_repo.SprawdzCzyKategoriaPosiadaTakiAtrybut(model))
+           {
+               ModelState.AddModelError("error", "Kategoria posiada już taki atrybut !");
+
+               var list = _repo.PobierzAtrybuty();
+               model.atrybuty = _repo.PobierzAtrybutyzKategori(model.kategoria.Id);
+               model.wszystkieAtrybuty = list.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Nazwa });
+
+               return View(model);
+           }
+           _repo.dodajAtrybutDoKategorii(model);
+           return RedirectToAction("DefiniujAtrybuty", new { id = model.kategoria.Id });
+
+       }
+
+ 
+       public ActionResult Usun(int? id, int? idKat)
+       {
+           if (id.HasValue)
+           {
+
+
+               _repo.UsunAtrybutZKategorii(id.Value, idKat.Value);
+               return RedirectToAction("DefiniujAtrybuty", new {id =idKat.Value });
+           }
+           else
+               return null;
+
+       }
     }
 }

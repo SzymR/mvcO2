@@ -18,6 +18,12 @@ namespace OGL
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+            routes.MapRoute(
+           name: "UsunKategorie",
+           url: "Kategoria/Usun/{id}/{idKat}",
+           defaults: new { controller = "Kategoria", action = "Usun", id = UrlParameter.Optional, idKat = UrlParameter.Optional }
+       );
         }
     }
 }
