@@ -13,7 +13,6 @@ namespace Repozytorium.Models.View
         public IQueryable<AtrybutWartosc> atrybutWartosc { set; get; }
         public IEnumerable<SelectListItem> list { get; set; }
 
-        [Display(Name = "User Role")]
         public int Selected { get; set; }
 
     }

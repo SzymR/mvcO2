@@ -26,6 +26,25 @@ namespace OGL.Controllers
             return View(kategorie);
         }
 
+
+        public ActionResult Create()
+        {
+            KategoriaZRodzicem temp = new KategoriaZRodzicem();
+            var list = _repo.PobierzKategorie().ToList();
+            temp.ojciec = list.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Nazwa });
+            temp.głownyOjciec = list.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Nazwa });
+            return View(temp);
+        }
+        [HttpPost]
+        public ActionResult Create(KategoriaZRodzicem model)
+        {
+            _repo.DodajKategorie(model);
+            TempData["Message"] = "Dodano kategorię ! Gratulacje !";
+            return RedirectToAction("MojeOgloszenia", "Ogloszenie");
+        }
+
+
+
         public ActionResult PokazOgloszenia(int id)
         {
             var ogloszenia = _repo.PobierzOgloszeniaZKategorii(id);

@@ -37,5 +37,15 @@ namespace Repozytorium.Repo
             var nazwa = _db.Kategorie.Find(id).Nazwa;
             return nazwa;
         }
+
+
+        public void DodajKategorie(Models.View.KategoriaZRodzicem model)
+        {
+            Kategoria temp = model.kategoria;
+            temp.ParentId = model.selectedOjciec;
+            temp.MainParent = model.selectedGłownyOjciec;
+            _db.Kategorie.Add(temp);
+            _db.SaveChanges();
+        }
     }
 }

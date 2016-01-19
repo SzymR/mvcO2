@@ -20,7 +20,10 @@ namespace Repozytorium.IRepo
         DbSet<Kategoria_Atrybut> Kategoria_Atrybut { get; set; }
         DbSet<Zdjecie> Zdjecia { get; set; }
 
-
+        DbSet<OgloszenieAtrybutWartosc> OgloszenieAtrybutWartosc { get; set; }
+        DbSet<ZakazaneSlowo> ZakazaneSlowo { get; set; }
+        DbSet<Wiadomosc> Wiadomosc { get; set; }
+      
         int SaveChanges();
         Database Database { get; }
         DbEntityEntry Entry(object entity);

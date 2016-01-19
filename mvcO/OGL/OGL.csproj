@@ -213,6 +213,7 @@
     <Compile Include="App_Start\UnityMvcActivator.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\GaleriaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KategoriaController.cs" />
@@ -300,6 +301,9 @@
     <Content Include="Views\Kategoria\PokazOgloszenia.cshtml" />
     <Content Include="Views\Ogloszenie\WypelnijAtrybuty.cshtml" />
     <Content Include="Views\Galeria\Lista.cshtml" />
+    <Content Include="Views\Admin\CreateWiadomosc.cshtml" />
+    <Content Include="Views\Admin\GetWiadomosci.cshtml" />
+    <Content Include="Views\Kategoria\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

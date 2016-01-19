@@ -162,6 +162,10 @@ namespace OGL.Controllers
 
             _repo.dodajAtrybutyZWartosciami(model);
 
+            TempData["Message"] = "Dodano ogłoszenie ! Gratulacje !";
+
+            return RedirectToAction("MojeOgloszenia");
+
             return null;
         }
 

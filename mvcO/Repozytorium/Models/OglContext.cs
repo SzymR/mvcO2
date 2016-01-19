@@ -33,6 +33,12 @@ namespace Repozytorium.Models
         public DbSet<Kategoria_Atrybut> Kategoria_Atrybut { get; set; }
         public DbSet<Zdjecie> Zdjecia { get; set; }
 
+        public DbSet<OgloszenieAtrybutWartosc> OgloszenieAtrybutWartosc { get; set; }
+        public DbSet<ZakazaneSlowo> ZakazaneSlowo { get; set; }
+        public DbSet<Wiadomosc> Wiadomosc { get; set; }
+
+
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
