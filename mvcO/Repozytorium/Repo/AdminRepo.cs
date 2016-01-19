@@ -28,5 +28,29 @@ namespace Repozytorium.Repo
             var x = _db.Wiadomosc.AsEnumerable() ;
             return x;
         }
+
+
+        public object PobierzSlowaZakazane()
+        {
+            var x = _db.ZakazaneSlowo.AsEnumerable();
+            return x;
+        }
+
+
+        public void dodajSlowoZakazane(Models.ZakazaneSlowo slowo)
+        {
+            _db.ZakazaneSlowo.Add(slowo);
+            _db.SaveChanges();
+        }
+
+    
+
+
+        public void UsunSlowo(int p)
+        {
+            var slowo = _db.ZakazaneSlowo.Where(x => x.id == p).SingleOrDefault();
+            _db.ZakazaneSlowo.Remove(slowo);
+            _db.SaveChanges();
+        }
     }
 }

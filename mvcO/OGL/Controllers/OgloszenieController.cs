@@ -104,6 +104,14 @@ namespace OGL.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (_repo.SprawdzCzyOgloszenieZawieraZakazaneSlowo(advert))
+                {
+                    ModelState.AddModelError("","Ogłoszenie zawiera wulgarne slowa");
+                    Response.StatusCode = (int)HttpStatusCode.BadRequest;
+                    List<string> errors = new List<string>();
+                     errors.Add("Ogloszenie zawiera wulgarne słowa");
+                     return Json(errors);
+                }
                 // Automatyczne przypisanie Id użytkownika, który dodaje ogłoszenie
                 advert.UzytkownikId = User.Identity.GetUserId();
                 // Automatyczne przypisanie aktualnej daty jako DataDodania

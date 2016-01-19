@@ -102,37 +102,37 @@ namespace Repozytorium.Repo
         public IQueryable<Atrybut> PobierzAtrybutyZKategorii(int id)
         {
 
-            var kat1 = new AtrybutWartosc()
-            {
-                IdAtrybut = 1,
-                Wartosc = "S"
-            };
+            //var kat1 = new AtrybutWartosc()
+            //{
+            //    IdAtrybut = 1,
+            //    Wartosc = "S"
+            //};
 
-            var kat2 = new AtrybutWartosc()
-            {
-                IdAtrybut = 1,
-                Wartosc = "M"
-            };
+            //var kat2 = new AtrybutWartosc()
+            //{
+            //    IdAtrybut = 1,
+            //    Wartosc = "M"
+            //};
 
-            var kat3 = new AtrybutWartosc()
-            {
-                IdAtrybut = 1,
-                Wartosc = "XL"
-            };
-
-
-            _db.AtrybutWartosc.Add(kat1);
-            _db.AtrybutWartosc.Add(kat2);
-            _db.AtrybutWartosc.Add(kat3);
+            //var kat3 = new AtrybutWartosc()
+            //{
+            //    IdAtrybut = 1,
+            //    Wartosc = "XL"
+            //};
 
 
-            _db.Kategoria_Atrybut.Add(new Kategoria_Atrybut()
-              {
-                  IdKategoria = 5,
-                  IdAtrybut = 1
-              });
+            //_db.AtrybutWartosc.Add(kat1);
+            //_db.AtrybutWartosc.Add(kat2);
+            //_db.AtrybutWartosc.Add(kat3);
 
-            _db.SaveChanges();
+
+            //_db.Kategoria_Atrybut.Add(new Kategoria_Atrybut()
+            //  {
+            //      IdKategoria = 5,
+            //      IdAtrybut = 1
+            //  });
+
+            //_db.SaveChanges();
 
             var test1 = (from o in _db.Kategoria_Atrybut
                          select o).ToList();
@@ -202,6 +202,13 @@ namespace Repozytorium.Repo
                        select o;
 
             return oglosz;
+        }
+
+
+        public bool SprawdzCzyOgloszenieZawieraZakazaneSlowo(Models.Ogloszenie ogloszenie)
+        {
+            var res = _db.ZakazaneSlowo.Any(x => (x.słowo.Contains(ogloszenie.Tresc) || (x.słowo.Contains(ogloszenie.Tytul))));
+            return res;
         }
     }
 }

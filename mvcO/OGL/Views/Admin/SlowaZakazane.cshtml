@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Repozytorium.Models.ZakazaneSlowo>
+
+@{
+    ViewBag.Title = "SlowaZakazane";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>SlowaZakazane</h2>
+
+<p>
+    @Html.ActionLink("Dadaj nowe słowo zakazane", "CreateSlowZakazane", null, new { @class = "btn btn-primary" })
+</p> 
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.słowo)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.słowo)
+        </td>
+        <td>
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

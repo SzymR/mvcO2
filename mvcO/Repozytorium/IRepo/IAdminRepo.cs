@@ -12,5 +12,15 @@ namespace Repozytorium.IRepo
 
         void DodajWiadomosc(Wiadomosc wiadomosc);
         IEnumerable<Wiadomosc> PobierzWiadomosc();
+
+        object PobierzSlowaZakazane();
+
+   
+
+        void dodajSlowoZakazane(ZakazaneSlowo slowo);
+
+
+
+         void UsunSlowo(int p);
     }
 }

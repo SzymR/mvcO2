@@ -105,43 +105,13 @@
                 enctype:"multipart/form-data",
                 data: JSON.stringify({ advert :_advert,category:_category }),
                 success: function (result) {
-                    debugger
-
                     var url="@Url.Action("WypelnijAtrybuty", "Ogloszenie")";
-
                     window.location.href = url + "?category=" + _category;//this will call you action method and pass you parameter.
 
-                    if (result.url) {
 
-
-                        // if the server returned a JSON object containing an url
-                        // property we redirect the browser to that url
-
-
-                        //$.ajax({
-                        //    type: "POST",
-
-                        //    url: "/Advert/File",
-                        //    enctype: "multipart/form-data",
-                        //    data: files[0],
-                        //    success: function (result) {
-                        //        debugger
-                        //       // if (result.url) {
-                        //            // if the server returned a JSON object containing an url
-                        //            // property we redirect the browser to that url
-
-
-                        //           /// window.location.href = result.url;
-                        //        //}
-
-                        //    }
-
-                        //});
-
-
-
-                    }
-
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    alert("Ogloszenie zawiera wulgarne słowa! ");
                 }
 
             });

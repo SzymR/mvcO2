@@ -50,5 +50,39 @@ namespace OGL.Controllers
             var model = _repo.PobierzWiadomosc();
             return View(model); ;
         }
+
+        [HttpGet]
+        public ActionResult SlowaZakazane()
+        {
+            var model = _repo.PobierzSlowaZakazane();
+            return View(model); ;
+        }
+
+        [HttpGet]
+        public ActionResult CreateSlowZakazane()
+        {
+            
+            return View(); 
+        }
+
+        [HttpPost]
+        public ActionResult CreateSlowZakazane(ZakazaneSlowo slowo)
+        {
+           
+            _repo.dodajSlowoZakazane(slowo);
+            TempData["Message"] = "Dodano słowo! Gratulacje !";
+            return RedirectToAction("SlowaZakazane", "Admin");
+        }
+
+   
+        public ActionResult Delete(int? id)
+        {
+
+            _repo.UsunSlowo(id.Value);
+            TempData["Message"] = "Usunięto słowo! Gratulacje !";
+            return RedirectToAction("SlowaZakazane", "Admin");
+        }
+
+
     }
 }

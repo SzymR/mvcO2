@@ -71,5 +71,7 @@ namespace Repozytorium.IRepo
         IEnumerable<System.Web.Mvc.SelectListItem> PobierzWartosciAtrybutowZAtrybutuJakoSelect(int p);
 
         IQueryable<Ogloszenie> WyszukajOgloszenia(string szukaj);
+
+        bool SprawdzCzyOgloszenieZawieraZakazaneSlowo(Models.Ogloszenie ogloszenie);
     }
 }
