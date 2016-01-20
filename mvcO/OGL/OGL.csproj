@@ -322,6 +322,7 @@
     <Content Include="Views\Admin\DozwoloneZnacznikiHtml.cshtml" />
     <Content Include="Views\Admin\CreateZnacznikHTML.cshtml" />
     <Content Include="Views\Kategoria\EdytujWartosciAtrybutow.cshtml" />
+    <Content Include="Views\Kategoria\DodajAtrybut.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

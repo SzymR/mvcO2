@@ -53,7 +53,23 @@ namespace OGL.Controllers
         }
 
 
-
+        public ActionResult DodajAtrybut()
+        {
+            Atrybut temp = new Atrybut();
+            return View(temp);
+        }
+        [HttpPost]
+        public ActionResult DodajAtrybut(Atrybut model)
+        {
+            if (ModelState.IsValid)
+            {
+                _repo.dodajAtrybutDoKategorii(model);
+                TempData["Message"] = "Dodano atrybut ! Gratulacje !";
+                return RedirectToAction("Index");
+            }
+            else
+                return View(model);
+        }
 
         public ActionResult PokazOgloszenia(int id)
         {

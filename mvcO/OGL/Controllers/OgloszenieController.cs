@@ -103,8 +103,6 @@ namespace OGL.Controllers
 
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        [ValidateInput(false)]
 
         public ActionResult DodajOgloszenie([Bind(Include = "Tresc,Tytul")] Ogloszenie advert, string[] category)
         {
@@ -159,11 +157,17 @@ namespace OGL.Controllers
                     {
                         temp = new AtrybutZWartosciami();
                         temp.atrybut = item;
-
-                        temp.atrybutWartosc = _repo.PobierzWartosciAtrybutowZAtrybutu(item.Id);
+                        var list = _repo.PobierzWartosciAtrybutowZAtrybutu(item.Id);
+                        ///var empty = list.ToList();
+                        temp.atrybutWartosc = list;
                         ///temp.list = new SelectList(temp.atrybutWartosc, "c");
                         ///
-                        temp.list = _repo.PobierzWartosciAtrybutowZAtrybutuJakoSelect(item.Id);
+                  
+                         temp.list = _repo.PobierzWartosciAtrybutowZAtrybutuJakoSelect(item.Id);
+                         //if (empty.Count== 0)
+                        // {
+                        //     continue;
+                        // }
                         model.Add(temp);
 
 

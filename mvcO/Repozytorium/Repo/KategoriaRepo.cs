@@ -109,5 +109,12 @@ namespace Repozytorium.Repo
             _db.AtrybutWartosc.Remove(item);
             _db.SaveChanges();
         }
+
+
+        public void dodajAtrybutDoKategorii(Atrybut model)
+        {
+            _db.Atrybut.Add(model);
+            _db.SaveChanges();
+        }
     }
 }
