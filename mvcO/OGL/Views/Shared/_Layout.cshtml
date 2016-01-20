@@ -11,6 +11,7 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
+    <link href="~/Content/@MvcApplication.theme" rel="stylesheet" />
 
 
 </head>
@@ -73,6 +74,23 @@
                         </div>
                     }
                 </div>
+
+          
+
+
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Motyw
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+
+                    <li> <a class="btn btn-default" href="/Home/Motyw?id=1" id="someID">Jasny</a> </li>
+                    <li><a class="btn btn-default" href="/Home/Motyw?id=2" id="someIDd">Sredni</a></li>
+                    <li><a class="btn btn-default" href="/Home/Motyw?id=3" id="someIdD">Ciemny</a></li>
+
+                </ul>
             </div>
 
         </div>

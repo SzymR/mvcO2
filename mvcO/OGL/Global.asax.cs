@@ -11,8 +11,11 @@ namespace OGL
 {
     public class MvcApplication : System.Web.HttpApplication
     {
+        public static string theme { set; get; }
         protected void Application_Start()
+        
         {
+            theme = "bootstrap.min.css";
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

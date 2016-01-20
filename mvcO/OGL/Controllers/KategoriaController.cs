@@ -174,9 +174,19 @@ namespace OGL.Controllers
             }
             else
             {
-                model.nowaWartoscAtrybutu.IdAtrybut = model.Atrybut.Id;
-                _repoO.dodajAtrybutyZWartosciami(model.nowaWartoscAtrybutu);
-                return RedirectToAction("EdytujWartosciAtrybutow", new { id = model.Atrybut.Id });
+                if (ModelState.IsValid)
+                {
+                    if (model.nowaWartoscAtrybutu.Id == null || model.nowaWartoscAtrybutu == null)
+                    {
+                        return RedirectToAction("EdytujWartosciAtrybutow");
+                    }
+                    model.nowaWartoscAtrybutu.IdAtrybut = model.Atrybut.Id;
+                    _repoO.dodajAtrybutyZWartosciami(model.nowaWartoscAtrybutu);
+                    return RedirectToAction("EdytujWartosciAtrybutow", new { id = model.Atrybut.Id });
+                }
+                else
+                    return RedirectToAction("EdytujWartosciAtrybutow");
+
             }
 
         }
