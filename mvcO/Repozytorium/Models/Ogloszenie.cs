@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
-using System.Web.Mvc;
 
 namespace Repozytorium.Models
 {
@@ -18,7 +17,6 @@ namespace Repozytorium.Models
         public int Id { get; set; }
         [Display(Name = "Treść ogłoszenia: ")]
         [MaxLength(500)]
-        [AllowHtml]
         public string Tresc { get; set; }
 
         [Display(Name = "Tytuł ogłoszenia: ")]

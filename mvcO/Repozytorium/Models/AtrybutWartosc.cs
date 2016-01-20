@@ -13,6 +13,9 @@ namespace Repozytorium.Models
         public int Id { get; set; }
 
         public int IdAtrybut { get; set; }
+
+        [Required]
+        [Display(Name = "Wartość :")]
         public string Wartosc { get; set; }
 
         public virtual Atrybut Atrybut { get; set; }

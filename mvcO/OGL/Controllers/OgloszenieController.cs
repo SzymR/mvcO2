@@ -144,53 +144,72 @@ namespace OGL.Controllers
         {
             List<AtrybutZWartosciami> model = new List<AtrybutZWartosciami>();
             AtrybutZWartosciami temp = null;
-            string[] _category = category.Split(',');
-            foreach (var item2 in _category)
+            if (category != null)
             {
-                var atrybuty = _repo.PobierzAtrybutyZKategorii(Convert.ToInt16(item2));
-
-
-                foreach (var item in atrybuty)
+                string[] _category = category.Split(',');
+                foreach (var item2 in _category)
                 {
-                    temp = new AtrybutZWartosciami();
-                    temp.atrybut = item;
-
-                    temp.atrybutWartosc = _repo.PobierzWartosciAtrybutowZAtrybutu(item.Id);
-                    ///temp.list = new SelectList(temp.atrybutWartosc, "c");
-                    ///
-                    temp.list = _repo.PobierzWartosciAtrybutowZAtrybutuJakoSelect(item.Id);
-                    model.Add(temp);
+                    var atrybuty = _repo.PobierzAtrybutyZKategorii(Convert.ToInt16(item2));
 
 
+                    foreach (var item in atrybuty)
+                    {
+                        temp = new AtrybutZWartosciami();
+                        temp.atrybut = item;
+
+                        temp.atrybutWartosc = _repo.PobierzWartosciAtrybutowZAtrybutu(item.Id);
+                        ///temp.list = new SelectList(temp.atrybutWartosc, "c");
+                        ///
+                        temp.list = _repo.PobierzWartosciAtrybutowZAtrybutuJakoSelect(item.Id);
+                        model.Add(temp);
+
+
+                    }
                 }
+
+                if (model.Count == 0)
+                {
+                    TempData["Message"] = "Dodano ogłoszenie ! Gratulacje !";
+                    return RedirectToAction("MojeOgloszenia");
+                }
+
+                return View(model);
+            }
+            else
+            {
+                return RedirectToAction("MojeOgloszenia");
             }
 
-            return View(model);
+
         }
 
         [HttpPost]
         public ActionResult DodajAtrybuty(List<Repozytorium.Models.View.AtrybutZWartosciami> model)
         {
+            if (ModelState.IsValid)
+            {
+                _repo.dodajAtrybutyZWartosciami(model);
 
-            _repo.dodajAtrybutyZWartosciami(model);
+                TempData["Message"] = "Dodano ogłoszenie ! Gratulacje !";
 
-            TempData["Message"] = "Dodano ogłoszenie ! Gratulacje !";
 
+            }
             return RedirectToAction("MojeOgloszenia");
 
-            return null;
+
         }
 
 
         [HttpPost]
-       public ActionResult Szukaj(string  szukaj )
+        public ActionResult Szukaj(string szukaj)
         {
 
-            var model  = _repo.WyszukajOgloszenia(szukaj);
+            var model = _repo.WyszukajOgloszenia(szukaj);
             TempData["Message"] = "Wynik wyszukiwania : ";
             model = model.OrderByDescending(d => d.DataDodania).AsQueryable();
             return View("MojeOgloszenia", model.ToPagedList<Ogloszenie>(1, 10));
         }
+
 
 
         #region MetodyDodawaniaUsuwaniaITP

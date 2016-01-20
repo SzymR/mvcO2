@@ -14,10 +14,13 @@ namespace OGL.Controllers
 {
     public class KategoriaController : Controller
     {
+
         private readonly IKategoriaRepo _repo;
-        public KategoriaController(IKategoriaRepo repo)
+        private readonly IOgloszenieRepo _repoO;
+        public KategoriaController(IKategoriaRepo repo, IOgloszenieRepo repoO)
         {
             _repo = repo;
+            _repoO = repoO;
         }
         // GET: Kategoria
         public ActionResult Index()
@@ -35,13 +38,20 @@ namespace OGL.Controllers
             temp.głownyOjciec = list.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Nazwa });
             return View(temp);
         }
+        [Authorize]
         [HttpPost]
         public ActionResult Create(KategoriaZRodzicem model)
         {
-            _repo.DodajKategorie(model);
-            TempData["Message"] = "Dodano kategorię ! Gratulacje !";
-            return RedirectToAction("MojeOgloszenia", "Ogloszenie");
+            if (ModelState.IsValid)
+            {
+                _repo.DodajKategorie(model);
+                TempData["Message"] = "Dodano kategorię ! Gratulacje !";
+                return RedirectToAction("Index");
+            }
+            else
+                return View(model);
         }
+
 
 
 
@@ -61,56 +71,123 @@ namespace OGL.Controllers
             return Json(kateogorie, JsonRequestBehavior.AllowGet);
         }
 
-       [HttpGet]
-       public ActionResult DefiniujAtrybuty(int? id)
-       {
-           if (id.HasValue)
-           {
+        [Authorize]
+        [HttpGet]
+        public ActionResult DefiniujAtrybuty(int? id)
+        {
+            if (id.HasValue)
+            {
 
 
-               KategoriaZAtrybutami temp = new KategoriaZAtrybutami();
-               var list = _repo.PobierzAtrybuty();
-               temp.kategoria = _repo.PobierzKategorie(id.Value);
-               temp.atrybuty = _repo.PobierzAtrybutyzKategori(id.Value);
-               temp.wszystkieAtrybuty = list.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Nazwa });
-               return View(temp);
-           }
-           else
-               return null;
+                KategoriaZAtrybutami temp = new KategoriaZAtrybutami();
+                var list = _repo.PobierzAtrybuty();
+                temp.kategoria = _repo.PobierzKategorie(id.Value);
+                temp.atrybuty = _repo.PobierzAtrybutyzKategori(id.Value);
+                temp.wszystkieAtrybuty = list.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Nazwa });
+                return View(temp);
+            }
+            else
+                return null;
 
-       }
+        }
+        [Authorize]
+        [HttpPost]
+        public ActionResult DefiniujAtrybuty(KategoriaZAtrybutami model)
+        {
+            if (_repo.SprawdzCzyKategoriaPosiadaTakiAtrybut(model))
+            {
+                ModelState.AddModelError("error", "Kategoria posiada już taki atrybut !");
 
-       [HttpPost]
-       public ActionResult DefiniujAtrybuty(KategoriaZAtrybutami model )
-       {
-           if(_repo.SprawdzCzyKategoriaPosiadaTakiAtrybut(model))
-           {
-               ModelState.AddModelError("error", "Kategoria posiada już taki atrybut !");
+                var list = _repo.PobierzAtrybuty();
+                model.atrybuty = _repo.PobierzAtrybutyzKategori(model.kategoria.Id);
+                model.wszystkieAtrybuty = list.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Nazwa });
 
-               var list = _repo.PobierzAtrybuty();
-               model.atrybuty = _repo.PobierzAtrybutyzKategori(model.kategoria.Id);
-               model.wszystkieAtrybuty = list.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Nazwa });
+                return View(model);
+            }
+            _repo.dodajAtrybutDoKategorii(model);
+            return RedirectToAction("DefiniujAtrybuty", new { id = model.kategoria.Id });
 
-               return View(model);
-           }
-           _repo.dodajAtrybutDoKategorii(model);
-           return RedirectToAction("DefiniujAtrybuty", new { id = model.kategoria.Id });
+        }
 
-       }
-
- 
-       public ActionResult Usun(int? id, int? idKat)
-       {
-           if (id.HasValue)
-           {
+        [Authorize]
+        public ActionResult Usun(int? id, int? idKat)
+        {
+            if (id.HasValue)
+            {
 
 
-               _repo.UsunAtrybutZKategorii(id.Value, idKat.Value);
-               return RedirectToAction("DefiniujAtrybuty", new {id =idKat.Value });
-           }
-           else
-               return null;
+                _repo.UsunAtrybutZKategorii(id.Value, idKat.Value);
+                return RedirectToAction("DefiniujAtrybuty", new { id = idKat.Value });
+            }
+            else
+                return null;
 
-       }
+        }
+        [Authorize]
+        public ActionResult EdytujWartosciAtrybutow(int? id)
+        {
+            if (!id.HasValue)
+            {
+                var list = _repo.PobierzAtrybuty();
+                AtrybutyZWartosciamiSLownik temp = new AtrybutyZWartosciamiSLownik();
+                temp.wszystkieAtrybuty = list.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Nazwa });
+                temp.Atrybut = list.First();
+                temp.wszystkieAtrybuty = list.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Nazwa });
+                temp.wartosciZaznaczonegoAtrybutu = _repoO.PobierzWartosciAtrybutowZAtrybutu(temp.Atrybut.Id);
+                temp.zaznaczonyAtrybut = 0;
+                //temp.nowaWartoscAtrybutu = "";
+                return View(temp);
+
+            }
+
+            else
+            {
+                var list = _repo.PobierzAtrybuty();
+                AtrybutyZWartosciamiSLownik temp = new AtrybutyZWartosciamiSLownik();
+                temp.wszystkieAtrybuty = list.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Nazwa });
+                temp.Atrybut = list.Where(x => x.Id == id.Value).SingleOrDefault();
+                temp.wszystkieAtrybuty = list.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Nazwa });
+                temp.wartosciZaznaczonegoAtrybutu = _repoO.PobierzWartosciAtrybutowZAtrybutu(temp.Atrybut.Id);
+                temp.zaznaczonyAtrybut = id.Value;
+                //temp.nowaWartoscAtrybutu = "";
+                return View(temp);
+            }
+
+            return null;
+        }
+        [Authorize]
+        [HttpPost]
+        public ActionResult EdytujWartosciAtrybutow(AtrybutyZWartosciamiSLownik model)
+        {
+
+            if (model.nowaWartoscAtrybutu == null)
+            {
+                var list = _repo.PobierzAtrybuty();
+                AtrybutyZWartosciamiSLownik temp = new AtrybutyZWartosciamiSLownik();
+                temp.wszystkieAtrybuty = list.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Nazwa });
+                temp.Atrybut = list.Where(x => x.Id == model.zaznaczonyAtrybut).SingleOrDefault();
+                temp.wszystkieAtrybuty = list.Select(m => new SelectListItem { Value = m.Id.ToString(), Text = m.Nazwa });
+                temp.wartosciZaznaczonegoAtrybutu = _repoO.PobierzWartosciAtrybutowZAtrybutu(temp.Atrybut.Id);
+                temp.zaznaczonyAtrybut = model.zaznaczonyAtrybut;
+                //temp.nowaWartoscAtrybutu = "";
+                return View(temp);
+            }
+            else
+            {
+                model.nowaWartoscAtrybutu.IdAtrybut = model.Atrybut.Id;
+                _repoO.dodajAtrybutyZWartosciami(model.nowaWartoscAtrybutu);
+                return RedirectToAction("EdytujWartosciAtrybutow", new { id = model.Atrybut.Id });
+            }
+
+        }
+
+        [Authorize]
+        public ActionResult UsunWartoscAtrybutu(int? id)
+        {
+
+            _repo.UsunWartoscAtrybutu(id.Value, 0);
+            return RedirectToAction("EdytujWartosciAtrybutow");
+        }
+
     }
 }

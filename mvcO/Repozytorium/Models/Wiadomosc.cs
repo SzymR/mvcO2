@@ -11,13 +11,16 @@ namespace Repozytorium.Models
         [Key]
         public int id { set; get; }
 
+        [Required]
         [Display(Name = "Tytuł : ")]
         public string tytul { set; get; }
 
-
         [DataType(DataType.MultilineText)]
+        [Required]
         [Display(Name = "Treść wiadomości: ")]
         public string tresc { set; get; }
+
+
         [Display(Name = "Data Dodania: ")] 
         public DateTime dataDodania { set; get; }
     }

@@ -52,6 +52,7 @@ namespace OGL.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public ActionResult SlowaZakazane()
         {
             var model = _repo.PobierzSlowaZakazane();
@@ -65,20 +66,41 @@ namespace OGL.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public ActionResult CreateSlowZakazane()
         {
-            
-            return View(); 
+
+            return View();
         }
 
-
         [HttpPost]
+        [Authorize]
         public ActionResult CreateSlowZakazane(ZakazaneSlowo slowo)
         {
-           
-            _repo.dodajSlowoZakazane(slowo);
-            TempData["Message"] = "Dodano słowo! Gratulacje !";
-            return RedirectToAction("SlowaZakazane", "Admin");
+            if (ModelState.IsValid)
+            {
+                _repo.dodajSlowoZakazane(slowo);
+                TempData["Message"] = "Dodano słowo! Gratulacje !";
+                return RedirectToAction("SlowaZakazane", "Admin");
+            }
+            else
+                return View(slowo);
+        }
+
+        [Authorize]
+        public ActionResult Delete(int? id)
+        {
+            if (id.HasValue)
+            {
+                _repo.UsunSlowo(id.Value);
+                TempData["Message"] = "Usunięto słowo! Gratulacje !";
+                return RedirectToAction("SlowaZakazane", "Admin");
+            }
+            else
+            {
+                TempData["Message"] = "Coś poszło nie tak przy usuwaniu słowa !";
+                return RedirectToAction("SlowaZakazane", "Admin");
+            }
         }
 
         [HttpGet]
@@ -105,13 +127,7 @@ namespace OGL.Controllers
             TempData["Message"] = "Usunięto znacznik! Gratulacje !";
             return RedirectToAction("DozwoloneZnacznikiHtml", "Admin");
         }
-        public ActionResult Delete(int? id)
-        {
-
-            _repo.UsunSlowo(id.Value);
-            TempData["Message"] = "Usunięto słowo! Gratulacje !";
-            return RedirectToAction("SlowaZakazane", "Admin");
-        }
+     
 
 
     }

@@ -74,5 +74,8 @@ namespace Repozytorium.IRepo
 
         bool SprawdzCzyOgloszenieZawieraZakazaneSlowo(Models.Ogloszenie ogloszenie);
         IQueryable<DozwolonyZnacznikHtml> PobierzListeZnacznikowHTML();
+
+        void dodajAtrybutyZWartosciami(AtrybutWartosc atrybutWartosc);
+    
     }
 }

@@ -25,5 +25,7 @@ namespace Repozytorium.IRepo
         List<Atrybut> PobierzAtrybuty();
 
         bool SprawdzCzyKategoriaPosiadaTakiAtrybut(Models.View.KategoriaZAtrybutami model);
+
+        void UsunWartoscAtrybutu(int p1, int p2);
     }
 }

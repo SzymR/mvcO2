@@ -102,5 +102,12 @@ namespace Repozytorium.Repo
         {
             return _db.Kategoria_Atrybut.Any(x=>x.IdAtrybut==model.Selected && x.IdKategoria==model.kategoria.Id);
         }
+
+        public void UsunWartoscAtrybutu(int p1, int p2)
+        {
+            var item = _db.AtrybutWartosc.Where(x => x.Id == p1).SingleOrDefault();
+            _db.AtrybutWartosc.Remove(item);
+            _db.SaveChanges();
+        }
     }
 }

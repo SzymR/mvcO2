@@ -10,6 +10,7 @@ namespace Repozytorium.Models
     {
         [Key]
         public int id { set; get; }
+        [Required]
         public string słowo { set; get; }
     }
 }

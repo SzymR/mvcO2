@@ -215,5 +215,12 @@ namespace Repozytorium.Repo
             var x = _db.DozwolonyZnacznikHtml.AsNoTracking();
             return x;
         }
+
+
+        public void dodajAtrybutyZWartosciami(AtrybutWartosc atrybutWartosc)
+        {
+            _db.AtrybutWartosc.Add(atrybutWartosc);
+            _db.SaveChanges();
+        }
     }
 }
