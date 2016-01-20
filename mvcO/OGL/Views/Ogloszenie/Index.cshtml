@@ -18,18 +18,18 @@
         @Html.ActionLink("Dodaj nowe ogłoszenie", "Create", null, new { @class = "btn btn-primary" })
     </p>
 }
-<table class="table">
+<table class="table" style="text-align: center;">
     <tr>
-        <th>
+        <th style="text-align: center;">
             @Html.ActionLink("Użytkownik", "Index", new { sortOrder = ViewBag.IdSort })
         </th>
-        <th>
+        <th style="text-align: center;">
             @Html.ActionLink("Tytuł", "Index", new { sortOrder = ViewBag.TytulSort })
         </th>
-        <th>
+        <th style="text-align: center;">
             @Html.ActionLink("Data Dodania", "Index", new { sortOrder = ViewBag.DataDodaniaSort })
         </th>
-        <th>
+        <th style="text-align: center;">
             @Html.ActionLink("Ilość odsłon", "Index", new { sortOrder = ViewBag.LicznikSort })
         </th>
         <th></th>
@@ -38,7 +38,7 @@
     @foreach (var item in Model)
     {
         <tr @if (User.Identity.GetUserId() == item.UzytkownikId) { @: id="trMoje"
-                     }>
+                                 }>
             <td>
                 @Html.DisplayFor(modelItem => item.Uzytkownik.UserName)
             </td>
@@ -67,7 +67,7 @@
                         @Html.ActionLink("Usuń", "Delete", new { id = item.Id }, new { @class = "btn btn-danger" })
                     }
                 }
-                
+
                 @Html.ActionLink("Rapotuj", "RaportujOgloszenie", new { id = item.Id }, new { @class = "btn btn-danger" })
 
             </td>

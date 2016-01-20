@@ -35,6 +35,7 @@ namespace Repozytorium.Models
             Ogloszenie_Kategoria { get; set; }
         public virtual Uzytkownik Uzytkownik { get; set; }
         public int Licznik { get; set; }
+        public virtual ICollection<Zdjecie> Zdjecia { get; set; }
 
 
 

@@ -11,6 +11,7 @@ namespace Repozytorium.Models
         public string Name { get; set; }
         public string UzytkownikId { get; set; }
         public Uzytkownik Uzytkownik { get; set; }
+        public Ogloszenie Ogloszenie { get; set; }
 
     }
 }

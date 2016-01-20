@@ -13,6 +13,7 @@ using Microsoft.AspNet.Identity;
 using PagedList;
 using Repozytorium.Models.View;
 using Vereyon.Web;
+using OGL.Models;
 
 namespace OGL.Controllers
 {
@@ -242,6 +243,9 @@ namespace OGL.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Ogloszenie ogloszenie = _repo.GetOgloszenieById((int)id);
+            OgloszeniaZeZdjeciamiViewModels model = new OgloszeniaZeZdjeciamiViewModels();
+            model.Ogloszenie = ogloszenie;
+            model.Zdjecia = _repo.GetAllAdImages((int)id);
             if (ogloszenie == null)
             {
                 return HttpNotFound();
@@ -253,11 +257,11 @@ namespace OGL.Controllers
                 {
                     _repo.Aktualizuj(ogloszenie);
                     _repo.SaveChanges();
-                    return View(ogloszenie);
+                    return View(model);
                 }
                 catch
                 {
-                    return View(ogloszenie);
+                    return View(model);
                 }
             }
             else
@@ -267,11 +271,11 @@ namespace OGL.Controllers
                 {
                     _repo.Aktualizuj(ogloszenie);
                     _repo.SaveChanges();
-                    return View(ogloszenie);
+                    return View(model);
                 }
                 catch
                 {
-                    return View(ogloszenie);
+                    return View(model);
                 }
             }
         }

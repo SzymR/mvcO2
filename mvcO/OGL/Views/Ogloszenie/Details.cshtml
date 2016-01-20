@@ -1,56 +1,62 @@
 ﻿@using Microsoft.AspNet.Identity;
-@model Repozytorium.Models.Ogloszenie
+@model OGL.Models.OgloszeniaZeZdjeciamiViewModels
+@using Services
 
 @{
     ViewBag.Tytul = "Szczegóły ogłoszenia";
     ViewBag.Opis = "Szczegóły ogłoszenia z naszej aplikacji metaopis do 160 znaków";
     ViewBag.SlowaKluczowe = "Szczegóły, ogłoszenia, słowe, kluczowe, aplikacja";
 }
+<div class="row">
+    <div class="col-sm-offset-1">
+        <div class="row">
+            <h2 style="display:inline">@Html.DisplayFor(model => model.Ogloszenie.Tytul)</h2><p style="display:inline">(@Html.DisplayFor(model => model.Ogloszenie.Id))</p>
+        </div>
+        <hr />
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+            foreach (var item in Model.Zdjecia)
+            {
+                <div style="float:left; padding:5px; max-width:200px; height:240px; text-align:center;" id="@Model.Zdjecia.First().Name">
+                    <a href="@(System.Configuration.ConfigurationManager.AppSettings["ImageUrl"] + "zdjecia/" + ImageUpload.GetFullBlobName("large", Model.Zdjecia.First().Name))">
+                        <img src="@(System.Configuration.ConfigurationManager.AppSettings["ImageUrl"] + "zdjecia/" + ImageUpload.GetFullBlobName("small", Model.Zdjecia.First().Name))" alt="" class="img-thumbnail" />
+                    </a>
+                </div>
+            }
+        }
+    </div>
+    <div class="col-sm-6">
+        <dl class="dl-horizontal">
+            <dt>
+                <small>
+                    Dodane przez:<br />
+                    @Html.DisplayFor(model => model.Ogloszenie.DataDodania)
+                </small>
+            </dt>
+            <dd>
+                <font size="5">
+                    @Html.DisplayFor(model => model.Ogloszenie.Uzytkownik.UserName)
+                </font>
+            </dd>
 
-<h2>Szczegóły ogłoszenia nr: @Model.Id</h2>
+            <dd>
+                <br />
+                @Html.DisplayFor(model => model.Ogloszenie.Tresc)
+            </dd>
 
-<div>
-    <h4>Ogloszenie</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            Id autora: 
-        <dd>
-            @Html.DisplayFor(model => model.UzytkownikId)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Tresc)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Tresc)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Tytul)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Tytul)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.DataDodania)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.DataDodania)
-        </dd>
-
-    </dl>
+        </dl>
+    </div>
 </div>
+
+
 <p>
     @if (User.Identity.IsAuthenticated && (User.IsInRole("Admin") || User.IsInRole("Pracownik") ||
-        Model.UzytkownikId == User.Identity.GetUserId())) { 
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn btn-primary" })
+        Model.Ogloszenie.UzytkownikId == User.Identity.GetUserId()))
+    {
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Ogloszenie.Id }, new { @class = "btn btn-primary" })
         @: |
-    }    
+    }
     @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-warning" })
-    
+
 </p>

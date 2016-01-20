@@ -35,5 +35,11 @@ namespace Repozytorium.Models
         {
             _db.SaveChanges();
         }
+
+
+        public List<Zdjecie> GetAllAdImages(int ogloszenieId)
+        {
+            return _db.Zdjecia.Where(x => x.Ogloszenie.Id == ogloszenieId).ToList();
+        }
     }
 }

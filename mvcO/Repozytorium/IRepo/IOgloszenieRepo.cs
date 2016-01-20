@@ -81,5 +81,7 @@ namespace Repozytorium.IRepo
         void RaportujOgloszenie(int p);
 
         object getRaportowaneOgloszenia();
+        List<Zdjecie> GetAllAdImages(int ogloszenieId);
+        void AddImage(Zdjecie img);
     }
 }

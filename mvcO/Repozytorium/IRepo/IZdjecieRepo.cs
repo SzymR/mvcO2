@@ -11,6 +11,7 @@ namespace Repozytorium.IRepo
         void AddImage(Zdjecie img);
         void DeleteImageByBlobName(string blobName);
         List<Zdjecie> GetAllImages(string userId);
+        List<Zdjecie> GetAllAdImages(int adId);
         void SaveChanges();
     }
 }

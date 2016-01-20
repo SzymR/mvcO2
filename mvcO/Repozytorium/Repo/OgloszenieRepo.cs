@@ -232,6 +232,14 @@ namespace Repozytorium.Repo
 
 
         }
+        public List<Zdjecie> GetAllAdImages(int ogloszenieId)
+        {
+            return _db.Zdjecia.Where(x => x.Ogloszenie.Id == ogloszenieId).ToList();
+        }
+        public void AddImage(Zdjecie img)
+        {
+            _db.Zdjecia.Add(img);
+        }
 
 
         public object getRaportowaneOgloszenia()

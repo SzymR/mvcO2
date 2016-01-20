@@ -28,6 +28,11 @@ namespace OGL.Controllers
             List<Zdjecie> zdjecia = _zdjecieRepo.GetAllImages(User.Identity.GetUserId());
             return View(zdjecia);
         }
+        public ActionResult ListaZdjecOgloszenia(int adId)
+        {
+            List<Zdjecie> zdjecia = _zdjecieRepo.GetAllAdImages(adId);
+            return View(zdjecia);
+        }
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult UploadImage(HttpPostedFileBase fileBase)
@@ -68,18 +73,23 @@ namespace OGL.Controllers
             {
                 return false;
             }
-            try{
+            try
+            {
                 ImageUpload imageUpload = new ImageUpload();
                 imageUpload.DeleteImageByNameWithMiniatures(blobName);
-                try{
+                try
+                {
                     _zdjecieRepo.DeleteImageByBlobName(blobName);
                     _zdjecieRepo.SaveChanges();
                     return true;
                 }
-                catch{
+                catch
+                {
                     return false;
                 }
-            } catch{
+            }
+            catch
+            {
                 return false;
             }
         }
