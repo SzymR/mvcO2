@@ -159,6 +159,10 @@
     <Compile Include="Migrations\201601192303377_znacznikiHtml2.Designer.cs">
       <DependentUpon>201601192303377_znacznikiHtml2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201601200221577_licznikOgloszenia.cs" />
+    <Compile Include="Migrations\201601200221577_licznikOgloszenia.Designer.cs">
+      <DependentUpon>201601200221577_licznikOgloszenia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Atrybut.cs" />
     <Compile Include="Models\AtrybutWartosc.cs" />
     <Compile Include="Models\DozwolonyZnacznikHtml.cs" />
@@ -218,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201601192303377_znacznikiHtml2.resx">
       <DependentUpon>201601192303377_znacznikiHtml2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601200221577_licznikOgloszenia.resx">
+      <DependentUpon>201601200221577_licznikOgloszenia.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

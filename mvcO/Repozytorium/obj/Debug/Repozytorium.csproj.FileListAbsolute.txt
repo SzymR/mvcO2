@@ -300,3 +300,4 @@ C:\Users\W\Source\Repos\mvcO24\mvcO\Repozytorium\bin\System.Web.Razor.xml
 C:\Users\W\Source\Repos\mvcO24\mvcO\Repozytorium\bin\System.Web.WebPages.xml
 C:\Users\W\Source\Repos\mvcO24\mvcO\Repozytorium\bin\System.Web.WebPages.Deployment.xml
 C:\Users\W\Source\Repos\mvcO24\mvcO\Repozytorium\bin\System.Web.WebPages.Razor.xml
+C:\Users\szymo\Desktop\mvcO2\mvcO2\mvcO\Repozytorium\obj\Debug\Repozytorium.Migrations.licznikOgloszenia.resources

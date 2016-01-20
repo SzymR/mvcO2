@@ -28,7 +28,7 @@ namespace OGL.Controllers
         //OgloszenieRepo repo = new OgloszenieRepo();
         // GET: Ogloszenie
         public ActionResult Index(int? page, string sortOrder)
-        {
+                {
             int currentPage = page ?? 1;
             int naStronie = 10;
 
@@ -36,7 +36,7 @@ namespace OGL.Controllers
             ViewBag.CurrentSort = sortOrder;
             ViewBag.IdSort = String.IsNullOrEmpty(sortOrder) ? "IdAsc" : "";
             ViewBag.DataDodaniaSort = sortOrder == "DataDodania" ? "DataDodaniaAsc" : "DataDodania";
-            ViewBag.TrescSort = sortOrder == "TrescAsc" ? "Tresc" : "TrescAsc";
+            ViewBag.LicznikSort = sortOrder == "LicznikAsc" ? "Licznik" : "LicznikAsc";
             ViewBag.TytulSort = sortOrder == "TytulAsc" ? "Tytul" : "TytulAsc";
             //ViewBag.idUser = User.Identity.GetUserId();
 
@@ -56,11 +56,11 @@ namespace OGL.Controllers
                 case "TytulAsc":
                     ogloszenia = ogloszenia.OrderBy(s => s.Tytul);
                     break;
-                case "Tresc":
-                    ogloszenia = ogloszenia.OrderByDescending(s => s.Tresc);
+                case "Licznik":
+                    ogloszenia = ogloszenia.OrderByDescending(s => s.Licznik);
                     break;
-                case "TrescAsc":
-                    ogloszenia = ogloszenia.OrderBy(s => s.Tresc);
+                case "LicznikAsc":
+                    ogloszenia = ogloszenia.OrderBy(s => s.Licznik);
                     break;
                 case "IdAsc":
                     ogloszenia = ogloszenia.OrderBy(s => s.Uzytkownik);
@@ -69,9 +69,12 @@ namespace OGL.Controllers
                     ogloszenia = ogloszenia.OrderByDescending(s => s.DataDodania);
                     break;
             }
-
             return View(ogloszenia.ToPagedList<Ogloszenie>(currentPage, naStronie));
-        }
+                }
+
+
+
+         
 
         public ActionResult Partial(int? page)
         {
@@ -228,7 +231,34 @@ namespace OGL.Controllers
             {
                 return HttpNotFound();
             }
-            return View(ogloszenie);
+            if (ogloszenie.Licznik < 1)
+            {
+                ogloszenie.Licznik = 1;
+                try
+                {
+                    _repo.Aktualizuj(ogloszenie);
+                    _repo.SaveChanges();
+                    return View(ogloszenie);
+                }
+                catch
+                {
+                    return View(ogloszenie);
+                }
+            }
+            else
+            {
+                ogloszenie.Licznik = ogloszenie.Licznik + 1;
+                try
+                {
+                    _repo.Aktualizuj(ogloszenie);
+                    _repo.SaveChanges();
+                    return View(ogloszenie);
+                }
+                catch
+                {
+                    return View(ogloszenie);
+                }
+            }
         }
         #endregion
 
