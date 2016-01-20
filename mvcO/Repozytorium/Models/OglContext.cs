@@ -36,6 +36,7 @@ namespace Repozytorium.Models
         public DbSet<OgloszenieAtrybutWartosc> OgloszenieAtrybutWartosc { get; set; }
         public DbSet<ZakazaneSlowo> ZakazaneSlowo { get; set; }
         public DbSet<Wiadomosc> Wiadomosc { get; set; }
+        public DbSet<DozwolonyZnacznikHtml> DozwolonyZnacznikHtml { get; set; }
 
 
 

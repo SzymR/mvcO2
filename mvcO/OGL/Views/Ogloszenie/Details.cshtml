@@ -14,19 +14,10 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            Id autora: 
+            Autor: 
         <dd>
-            @Html.DisplayFor(model => model.UzytkownikId)
+            @Html.DisplayFor(model => model.Uzytkownik.UserName)
         </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Tresc)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Tresc)
-        </dd>
-
         <dt>
             @Html.DisplayNameFor(model => model.Tytul)
         </dt>
@@ -34,6 +25,15 @@
         <dd>
             @Html.DisplayFor(model => model.Tytul)
         </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tresc)
+        </dt>
+        @if (Model != null) { 
+        <dd>
+            @Html.Raw(Model.Tresc)
+        </dd>
+        }
+
 
         <dt>
             @Html.DisplayNameFor(model => model.DataDodania)

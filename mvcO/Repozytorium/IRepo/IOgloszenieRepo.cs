@@ -73,5 +73,6 @@ namespace Repozytorium.IRepo
         IQueryable<Ogloszenie> WyszukajOgloszenia(string szukaj);
 
         bool SprawdzCzyOgloszenieZawieraZakazaneSlowo(Models.Ogloszenie ogloszenie);
+        IQueryable<DozwolonyZnacznikHtml> PobierzListeZnacznikowHTML();
     }
 }

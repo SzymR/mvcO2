@@ -43,6 +43,7 @@ namespace Repozytorium.Repo
             _db.SaveChanges();
         }
 
+
     
 
 
@@ -50,6 +51,26 @@ namespace Repozytorium.Repo
         {
             var slowo = _db.ZakazaneSlowo.Where(x => x.id == p).SingleOrDefault();
             _db.ZakazaneSlowo.Remove(slowo);
+            _db.SaveChanges();
+        }
+
+
+        public object PobierzDozwoloneZnacznikiHtml()
+        {
+            var x = _db.DozwolonyZnacznikHtml.AsEnumerable();
+            return x;
+        }
+
+        public void dodajZnacznikHtml(Models.DozwolonyZnacznikHtml znacznikk)
+        {
+            _db.DozwolonyZnacznikHtml.Add(znacznikk);
+            _db.SaveChanges();
+        }
+
+        public void UsunZnacznikHtml(int p)
+        {
+            var znacznik = _db.DozwolonyZnacznikHtml.Where(x => x.id == p).SingleOrDefault();
+            _db.DozwolonyZnacznikHtml.Remove(znacznik);
             _db.SaveChanges();
         }
     }

@@ -57,6 +57,12 @@ namespace OGL.Controllers
             var model = _repo.PobierzSlowaZakazane();
             return View(model); ;
         }
+        [HttpGet]
+        public ActionResult DozwoloneZnacznikiHtml()
+        {
+            var model = _repo.PobierzDozwoloneZnacznikiHtml();
+            return View(model); ;
+        }
 
         [HttpGet]
         public ActionResult CreateSlowZakazane()
@@ -64,6 +70,7 @@ namespace OGL.Controllers
             
             return View(); 
         }
+
 
         [HttpPost]
         public ActionResult CreateSlowZakazane(ZakazaneSlowo slowo)
@@ -74,7 +81,30 @@ namespace OGL.Controllers
             return RedirectToAction("SlowaZakazane", "Admin");
         }
 
-   
+        [HttpGet]
+        public ActionResult CreateZnacznikHTML()
+        {
+
+            return View();
+        }
+
+
+        [HttpPost]
+        public ActionResult CreateZnacznikHTML(DozwolonyZnacznikHtml znacznikk)
+        {
+
+            _repo.dodajZnacznikHtml(znacznikk);
+            TempData["Message"] = "Dodano nowy znacznik! Gratulacje !";
+            return RedirectToAction("DozwoloneZnacznikiHtml", "Admin");
+        }
+
+        public ActionResult DeleteZnacznik(int? id)
+        {
+
+            _repo.UsunZnacznikHtml(id.Value);
+            TempData["Message"] = "Usunięto znacznik! Gratulacje !";
+            return RedirectToAction("DozwoloneZnacznikiHtml", "Admin");
+        }
         public ActionResult Delete(int? id)
         {
 

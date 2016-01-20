@@ -255,3 +255,9 @@ C:\Users\W\Source\Repos\mvcO23\mvcO\Repozytorium\obj\Debug\Repozytorium.dll
 C:\Users\W\Source\Repos\mvcO23\mvcO\Repozytorium\obj\Debug\Repozytorium.pdb
 C:\Users\W\Source\Repos\mvcO23\mvcO\Repozytorium\obj\Debug\Repozytorium.Migrations.dodanieTAbel.resources
 C:\Users\W\Source\Repos\mvcO23\mvcO\Repozytorium\obj\Debug\Repozytorium.Migrations.dodanieSlow.resources
+C:\Users\szymo\Desktop\mvcO2\mvcO2\mvcO\Repozytorium\obj\Debug\Repozytorium.Migrations.dodanieTAbel.resources
+C:\Users\szymo\Desktop\mvcO2\mvcO2\mvcO\Repozytorium\obj\Debug\Repozytorium.Migrations.dodanieSlow.resources
+C:\Users\szymo\Desktop\mvcO2\mvcO2\mvcO\Repozytorium\obj\Debug\Repozytorium.Migrations.html_w_tresci.resources
+C:\Users\szymo\Desktop\mvcO2\mvcO2\mvcO\Repozytorium\obj\Debug\Repozytorium.Migrations.slowa_typ.resources
+C:\Users\szymo\Desktop\mvcO2\mvcO2\mvcO\Repozytorium\obj\Debug\Repozytorium.Migrations.znacznikiHtml.resources
+C:\Users\szymo\Desktop\mvcO2\mvcO2\mvcO\Repozytorium\obj\Debug\Repozytorium.Migrations.znacznikiHtml2.resources

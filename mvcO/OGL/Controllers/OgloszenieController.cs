@@ -12,6 +12,7 @@ using Repozytorium.IRepo;
 using Microsoft.AspNet.Identity;
 using PagedList;
 using Repozytorium.Models.View;
+using Vereyon.Web;
 
 namespace OGL.Controllers
 {
@@ -39,7 +40,7 @@ namespace OGL.Controllers
             ViewBag.TytulSort = sortOrder == "TytulAsc" ? "Tytul" : "TytulAsc";
             //ViewBag.idUser = User.Identity.GetUserId();
 
-            var ogloszenia = _repo.PobierzOgloszenia();
+            var ogloszenia = _repo.PobierzOgloszenia();            
 
             switch (sortOrder)
             {
@@ -99,6 +100,8 @@ namespace OGL.Controllers
 
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
+        [ValidateInput(false)]
 
         public ActionResult DodajOgloszenie([Bind(Include = "Tresc,Tytul")] Ogloszenie advert, string[] category)
         {
@@ -106,6 +109,7 @@ namespace OGL.Controllers
             {
                 if (_repo.SprawdzCzyOgloszenieZawieraZakazaneSlowo(advert))
                 {
+                    
                     ModelState.AddModelError("","Ogłoszenie zawiera wulgarne slowa");
                     Response.StatusCode = (int)HttpStatusCode.BadRequest;
                     List<string> errors = new List<string>();
@@ -240,6 +244,19 @@ namespace OGL.Controllers
                 ogloszenie.UzytkownikId = User.Identity.GetUserId();
                 // Automatyczne przypisanie aktualnej daty jako DataDodania
                 ogloszenie.DataDodania = DateTime.Now;
+
+                var sanitizer = new HtmlSanitizer();
+                sanitizer.WhiteListMode = true;
+                sanitizer.Tag("cite");
+                var listZnacznikow = _repo.PobierzListeZnacznikowHTML().Select(s => new { s.znacznik}).ToList();
+                foreach (var item in listZnacznikow)
+                {
+                    sanitizer.Tag(item.znacznik);
+                }
+
+                string cleanHtml = sanitizer.Sanitize(ogloszenie.Tresc);
+                ogloszenie.Tresc = cleanHtml;
+
                 // W razie wystąpienia błędu powrót do widoku dodawania
                 try
                 {

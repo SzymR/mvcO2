@@ -815,3 +815,7 @@ C:\Users\W\Source\Repos\mvcO23\mvcO\OGL\bin\zh-Hant\System.Spatial.resources.dll
 C:\Users\W\Source\Repos\mvcO23\mvcO\OGL\obj\Debug\OGL.csprojResolveAssemblyReference.cache
 C:\Users\W\Source\Repos\mvcO23\mvcO\OGL\obj\Debug\OGL.dll
 C:\Users\W\Source\Repos\mvcO23\mvcO\OGL\obj\Debug\OGL.pdb
+C:\Users\szymo\Desktop\mvcO2\mvcO2\mvcO\OGL\bin\HtmlAgilityPack.dll
+C:\Users\szymo\Desktop\mvcO2\mvcO2\mvcO\OGL\bin\Vereyon.Web.HtmlSanitizer.dll
+C:\Users\szymo\Desktop\mvcO2\mvcO2\mvcO\OGL\bin\HtmlAgilityPack.pdb
+C:\Users\szymo\Desktop\mvcO2\mvcO2\mvcO\OGL\bin\HtmlAgilityPack.xml

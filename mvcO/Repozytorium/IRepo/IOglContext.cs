@@ -23,6 +23,7 @@ namespace Repozytorium.IRepo
         DbSet<OgloszenieAtrybutWartosc> OgloszenieAtrybutWartosc { get; set; }
         DbSet<ZakazaneSlowo> ZakazaneSlowo { get; set; }
         DbSet<Wiadomosc> Wiadomosc { get; set; }
+        DbSet<DozwolonyZnacznikHtml> DozwolonyZnacznikHtml { get; set; }
       
         int SaveChanges();
         Database Database { get; }

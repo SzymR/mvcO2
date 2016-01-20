@@ -210,5 +210,10 @@ namespace Repozytorium.Repo
             var res = _db.ZakazaneSlowo.Any(x => (x.słowo.Contains(ogloszenie.Tresc) || (x.słowo.Contains(ogloszenie.Tytul))));
             return res;
         }
+        public IQueryable<DozwolonyZnacznikHtml> PobierzListeZnacznikowHTML()
+        {
+            var x = _db.DozwolonyZnacznikHtml.AsNoTracking();
+            return x;
+        }
     }
 }

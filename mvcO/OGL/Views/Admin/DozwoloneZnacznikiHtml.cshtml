@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Repozytorium.Models.DozwolonyZnacznikHtml>
+
+@{
+    ViewBag.Title = "DozwoloneZnacznikiHtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Lista dozwolonych znaczników HTML:</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateZnacznikHtml")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.znacznik)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.znacznik)
+        </td>
+        <td>
+            @Html.ActionLink("Delete", "DeleteZnacznik", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

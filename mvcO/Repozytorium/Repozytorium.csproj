@@ -143,8 +143,25 @@
     <Compile Include="Migrations\201601191352530_dodanieSlow.Designer.cs">
       <DependentUpon>201601191352530_dodanieSlow.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201601192142349_html_w_tresci.cs" />
+    <Compile Include="Migrations\201601192142349_html_w_tresci.Designer.cs">
+      <DependentUpon>201601192142349_html_w_tresci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601192206272_slowa_typ.cs" />
+    <Compile Include="Migrations\201601192206272_slowa_typ.Designer.cs">
+      <DependentUpon>201601192206272_slowa_typ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601192300549_znacznikiHtml.cs" />
+    <Compile Include="Migrations\201601192300549_znacznikiHtml.Designer.cs">
+      <DependentUpon>201601192300549_znacznikiHtml.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601192303377_znacznikiHtml2.cs" />
+    <Compile Include="Migrations\201601192303377_znacznikiHtml2.Designer.cs">
+      <DependentUpon>201601192303377_znacznikiHtml2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Atrybut.cs" />
     <Compile Include="Models\AtrybutWartosc.cs" />
+    <Compile Include="Models\DozwolonyZnacznikHtml.cs" />
     <Compile Include="Models\Kategoria.cs" />
     <Compile Include="Models\Kategoria_Atrybut.cs" />
     <Compile Include="Models\OglContext.cs" />
@@ -188,6 +205,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201601191352530_dodanieSlow.resx">
       <DependentUpon>201601191352530_dodanieSlow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601192142349_html_w_tresci.resx">
+      <DependentUpon>201601192142349_html_w_tresci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601192206272_slowa_typ.resx">
+      <DependentUpon>201601192206272_slowa_typ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601192300549_znacznikiHtml.resx">
+      <DependentUpon>201601192300549_znacznikiHtml.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601192303377_znacznikiHtml2.resx">
+      <DependentUpon>201601192303377_znacznikiHtml2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

@@ -14,13 +14,11 @@ namespace Repozytorium.IRepo
         IEnumerable<Wiadomosc> PobierzWiadomosc();
 
         object PobierzSlowaZakazane();
-
-   
-
         void dodajSlowoZakazane(ZakazaneSlowo slowo);
+        void UsunSlowo(int p);
 
-
-
-         void UsunSlowo(int p);
+        object PobierzDozwoloneZnacznikiHtml();
+        void dodajZnacznikHtml(DozwolonyZnacznikHtml znacznik);
+        void UsunZnacznikHtml(int p);
     }
 }
