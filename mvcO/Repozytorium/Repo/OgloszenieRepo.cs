@@ -1,5 +1,6 @@
 ﻿using Repozytorium.IRepo;
 using Repozytorium.Models;
+using Repozytorium.Models.View;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -171,6 +172,7 @@ namespace Repozytorium.Repo
             {
                 OgloszenieAtrybutWartosc temp = new OgloszenieAtrybutWartosc()
                 {
+                    idOgloszenia=item.ogloszenie.Id,
                     IdAtrybut = item.atrybut.Id,
                     IdAtrybutWartosc = item.Selected
 
@@ -246,6 +248,23 @@ namespace Repozytorium.Repo
         {
             var list = _db.Ogloszenia.Where(x => x.czyZreportowane == true);
             return list;
+        }
+
+
+        public List<Models.View.JedenAtrybutZWartoscią> PobierzAtrybutydlaAgloszenia(Ogloszenie ogloszenie)
+        {
+           var list =  (from o in _db.OgloszenieAtrybutWartosc
+                       join k in _db.Atrybut on o.IdAtrybut equals k.Id
+                       join p in _db.AtrybutWartosc on o.IdAtrybutWartosc equals p.Id
+                       where o.idOgloszenia==ogloszenie.Id
+                       select new JedenAtrybutZWartoscią()
+                       {
+                            atrybut=k,
+                            atrybut_wartosc=p
+                       })
+                       .ToList();
+
+           return list;
         }
     }
 }

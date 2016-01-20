@@ -9,6 +9,7 @@ namespace Repozytorium.Models.View
 {
     public class AtrybutZWartosciami
     {
+        public Ogloszenie ogloszenie { set; get; }
         public Atrybut atrybut { set; get; }
         public IQueryable<AtrybutWartosc> atrybutWartosc { set; get; }
         public IEnumerable<SelectListItem> list { get; set; }

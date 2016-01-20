@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
+using Repozytorium.Models.View;
 
 namespace Repozytorium.Models
 {
@@ -29,6 +30,8 @@ namespace Repozytorium.Models
         public System.DateTime DataDodania { get; set; }
 
         public bool czyZreportowane { get; set; }
+
+
 
         public string UzytkownikId { get; set; }
         public virtual ICollection<Ogloszenie_Kategoria>

@@ -49,6 +49,14 @@
     </div>
 </div>
 
+@foreach (var item in Model.atrybuty)
+{
+    <h6 class=".text-primary" > @item.atrybut.Nazwa</h6>
+    <p class=".text-primary"> @item.atrybut_wartosc.Wartosc</p>
+
+    <br/>
+}
+
 
 <p>
     @if (User.Identity.IsAuthenticated && (User.IsInRole("Admin") || User.IsInRole("Pracownik") ||

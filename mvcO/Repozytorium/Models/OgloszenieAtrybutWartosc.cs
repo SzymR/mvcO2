@@ -11,7 +11,7 @@ namespace Repozytorium.Models
         [Key]
         public int id { set; get; }
 
-
+        public int idOgloszenia { set; get; }
         public int IdAtrybut { set; get; }
 
         public int IdAtrybutWartosc { get; set; }

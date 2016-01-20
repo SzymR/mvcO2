@@ -83,5 +83,7 @@ namespace Repozytorium.IRepo
         object getRaportowaneOgloszenia();
         List<Zdjecie> GetAllAdImages(int ogloszenieId);
         void AddImage(Zdjecie img);
+
+        List<Models.View.JedenAtrybutZWartoscią> PobierzAtrybutydlaAgloszenia(Ogloszenie ogloszenie);
     }
 }

@@ -139,6 +139,7 @@ namespace OGL.Controllers
                     _repo.Dodaj(advert, category);
 
                     _repo.SaveChanges();
+                    TempData["ogl"] = advert;
 
 
 
@@ -169,6 +170,8 @@ namespace OGL.Controllers
                     {
                         temp = new AtrybutZWartosciami();
                         temp.atrybut = item;
+                        Ogloszenie ogl = (Ogloszenie)TempData["ogl"];
+                        temp.ogloszenie = ogl;
                         var list = _repo.PobierzWartosciAtrybutowZAtrybutu(item.Id);
                         ///var empty = list.ToList();
                         temp.atrybutWartosc = list;
@@ -244,6 +247,8 @@ namespace OGL.Controllers
             }
             Ogloszenie ogloszenie = _repo.GetOgloszenieById((int)id);
             OgloszeniaZeZdjeciamiViewModels model = new OgloszeniaZeZdjeciamiViewModels();
+
+            model.atrybuty = _repo.PobierzAtrybutydlaAgloszenia(ogloszenie);
             model.Ogloszenie = ogloszenie;
             model.Zdjecia = _repo.GetAllAdImages((int)id);
             if (ogloszenie == null)

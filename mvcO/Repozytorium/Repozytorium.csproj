@@ -184,6 +184,7 @@
     <Compile Include="Models\View\AccountViewModels.cs" />
     <Compile Include="Models\View\AtrybutyZWartosciamiSLownik.cs" />
     <Compile Include="Models\View\AtrybutZWartosciami.cs" />
+    <Compile Include="Models\View\JedenAtrybutZWartoscią.cs" />
     <Compile Include="Models\View\KategoriaZAtrybutami.cs" />
     <Compile Include="Models\View\KategoriaZRodzicem.cs" />
     <Compile Include="Models\View\OgloszeniaZKategoriiViewModels.cs" />
