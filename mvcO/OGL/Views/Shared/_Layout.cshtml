@@ -50,7 +50,7 @@
                                 <li>@Html.ActionLink("Dodaj Kategorię", "Create", "Kategoria")</li>
                                 <li>@Html.ActionLink("Modyfikuj Atrybuty", "EdytujWartosciAtrybutow", "Kategoria")</li>
                                 <li>@Html.ActionLink("Zredaguj Wiadomosc", "CreateWiadomosc", "Admin")</li>
-                                <li>@Html.ActionLink("Przejrzyj zgłoszenia", "GetRaportowane", "Ogloszenie")</li>
+                                <li>@Html.ActionLink("Przejrzyj zgłoszenia", "GetRaportowane", "Kategoria")</li>
                                 <li>@Html.ActionLink("Modyfikuj Zakazane Słowa", "SlowaZakazane", "Admin")</li>
                             }
                             <li class="divider"></li>
@@ -58,6 +58,21 @@
                             <li>@Html.ActionLink("Lista jako PartialView", "Partial", "Ogloszenie")</li>
                         </ul>
                     </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Motyw
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+
+                            <li> <a class="btn btn-default" href="/Home/Motyw?id=1" id="someID">Jasny</a> </li>
+                            <li><a class="btn btn-default" href="/Home/Motyw?id=2" id="someIDd">Sredni</a></li>
+                            <li><a class="btn btn-default" href="/Home/Motyw?id=3" id="someIdD">Ciemny</a></li>
+
+                        </ul>
+                    </li>
+
                 </ul>
                 @Html.Partial("_LoginPartial")
 
@@ -79,19 +94,7 @@
 
 
             </div>
-            <div class="dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    Motyw
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-
-                    <li> <a class="btn btn-default" href="/Home/Motyw?id=1" id="someID">Jasny</a> </li>
-                    <li><a class="btn btn-default" href="/Home/Motyw?id=2" id="someIDd">Sredni</a></li>
-                    <li><a class="btn btn-default" href="/Home/Motyw?id=3" id="someIdD">Ciemny</a></li>
-
-                </ul>
-            </div>
+           
 
         </div>
     </div>

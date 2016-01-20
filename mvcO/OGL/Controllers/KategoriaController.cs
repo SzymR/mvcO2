@@ -29,7 +29,7 @@ namespace OGL.Controllers
             return View(kategorie);
         }
 
-
+         [Authorize]
         public ActionResult Create()
         {
             KategoriaZRodzicem temp = new KategoriaZRodzicem();
@@ -52,12 +52,13 @@ namespace OGL.Controllers
                 return View(model);
         }
 
-
+         [Authorize]
         public ActionResult DodajAtrybut()
         {
             Atrybut temp = new Atrybut();
             return View(temp);
         }
+         [Authorize]
         [HttpPost]
         public ActionResult DodajAtrybut(Atrybut model)
         {
@@ -201,7 +202,11 @@ namespace OGL.Controllers
                     return RedirectToAction("EdytujWartosciAtrybutow", new { id = model.Atrybut.Id });
                 }
                 else
+                {
+                    TempData["Message"] = "Wartość atrybutu nie może być pusta !";
+                    ModelState.AddModelError("error", "Wartość atrybutu nie może być pusta !");
                     return RedirectToAction("EdytujWartosciAtrybutow");
+                }
 
             }
 

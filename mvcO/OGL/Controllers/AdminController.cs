@@ -36,12 +36,16 @@ namespace OGL.Controllers
         [HttpPost]
         public ActionResult CreateWiadomosc(Wiadomosc model)
         {
+            if (ModelState.IsValid)
+            {
+                model.dataDodania = DateTime.Now;
+                _repo.DodajWiadomosc(model);
 
-            model.dataDodania = DateTime.Now;
-            _repo.DodajWiadomosc(model);
-
-            TempData["Message"] = "Dodano wiadomosc! Gratulacje !";
-            return RedirectToAction("MojeOgloszenia", "Ogloszenie");
+                TempData["Message"] = "Dodano wiadomosc! Gratulacje !";
+                return RedirectToAction("GetWiadomosci", "Admin");
+            }
+            else
+                return View(model);
         }
         [HttpGet]
         public ActionResult GetWiadomosci()
