@@ -222,5 +222,22 @@ namespace Repozytorium.Repo
             _db.AtrybutWartosc.Add(atrybutWartosc);
             _db.SaveChanges();
         }
+
+
+        public void RaportujOgloszenie(int p)
+        {
+           var ogl =  _db.Ogloszenia.Where(x => x.Id == p).SingleOrDefault();
+           ogl.czyZreportowane = true;
+           _db.SaveChanges();
+
+
+        }
+
+
+        public object getRaportowaneOgloszenia()
+        {
+            var list = _db.Ogloszenia.Where(x => x.czyZreportowane == true);
+            return list;
+        }
     }
 }

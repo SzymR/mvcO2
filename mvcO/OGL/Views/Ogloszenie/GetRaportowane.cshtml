@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Repozytorium.Models.Ogloszenie>
+
+@{
+    ViewBag.Title = "GetRaportowane";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Raportowane ogłoszenia </h2>
+
+
+<table class="table table-condensed table-hover">
+    <tr>
+       
+        <th>
+            @Html.DisplayNameFor(model => model.Tresc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tytul)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataDodania)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.Licznik)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Tresc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tytul)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataDodania)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Licznik)
+            </td>
+
+        </tr>
+    }
+
+</table>

@@ -341,3 +341,4 @@ C:\Users\W\Source\Repos\mvcO25\mvcO\Repozytorium\obj\Debug\Repozytorium.Migratio
 C:\Users\W\Source\Repos\mvcO25\mvcO\Repozytorium\obj\Debug\Repozytorium.csproj.GenerateResource.Cache
 C:\Users\W\Source\Repos\mvcO25\mvcO\Repozytorium\obj\Debug\Repozytorium.dll
 C:\Users\W\Source\Repos\mvcO25\mvcO\Repozytorium\obj\Debug\Repozytorium.pdb
+C:\Users\W\Source\Repos\mvcO25\mvcO\Repozytorium\obj\Debug\Repozytorium.Migrations.dodanieCzyreport.resources

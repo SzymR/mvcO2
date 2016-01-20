@@ -67,6 +67,8 @@
                         @Html.ActionLink("Usuń", "Delete", new { id = item.Id }, new { @class = "btn btn-danger" })
                     }
                 }
+                
+                @Html.ActionLink("Rapotuj", "RaportujOgloszenie", new { id = item.Id }, new { @class = "btn btn-danger" })
 
             </td>
         </tr>

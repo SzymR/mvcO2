@@ -163,6 +163,10 @@
     <Compile Include="Migrations\201601200221577_licznikOgloszenia.Designer.cs">
       <DependentUpon>201601200221577_licznikOgloszenia.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201601200343282_dodanieCzyreport.cs" />
+    <Compile Include="Migrations\201601200343282_dodanieCzyreport.Designer.cs">
+      <DependentUpon>201601200343282_dodanieCzyreport.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Atrybut.cs" />
     <Compile Include="Models\AtrybutWartosc.cs" />
     <Compile Include="Models\DozwolonyZnacznikHtml.cs" />
@@ -225,6 +229,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201601200221577_licznikOgloszenia.resx">
       <DependentUpon>201601200221577_licznikOgloszenia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601200343282_dodanieCzyreport.resx">
+      <DependentUpon>201601200343282_dodanieCzyreport.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

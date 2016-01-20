@@ -97,8 +97,19 @@ namespace OGL.Controllers
             return View(ogloszenia.ToPagedList<Ogloszenie>(currentPage, naStronie));
         }
 
-
-
+         [Authorize]
+        public ActionResult RaportujOgloszenie(int? id)
+        {
+            _repo.RaportujOgloszenie(id.Value);
+            TempData["Message"] = "Wysłano report !";
+            return RedirectToAction("Index");
+        }
+        [Authorize]
+        public ActionResult GetRaportowane()
+        {
+            var temp = _repo.getRaportowaneOgloszenia();
+            return View(temp);
+        }
 
 
 
@@ -140,7 +151,7 @@ namespace OGL.Controllers
 
             return null;
         }
-
+        [Authorize]
         public ActionResult WypelnijAtrybuty(string category, string tytul, string nazwa)
         {
             List<AtrybutZWartosciami> model = new List<AtrybutZWartosciami>();

@@ -76,6 +76,10 @@ namespace Repozytorium.IRepo
         IQueryable<DozwolonyZnacznikHtml> PobierzListeZnacznikowHTML();
 
         void dodajAtrybutyZWartosciami(AtrybutWartosc atrybutWartosc);
-    
+
+
+        void RaportujOgloszenie(int p);
+
+        object getRaportowaneOgloszenia();
     }
 }
