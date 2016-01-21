@@ -6,13 +6,11 @@
 
 <h2>Ogłoszenia z kategorii: @Model.NazwaKategorii</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Ogloszenia.First().UzytkownikId)
+            @Html.DisplayNameFor(model => model.Ogloszenia.First().Uzytkownik.UserName)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Ogloszenia.First().Tytul)
@@ -27,7 +25,7 @@
     {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.UzytkownikId)
+                @Html.DisplayFor(modelItem => item.Uzytkownik.UserName)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Tytul)
